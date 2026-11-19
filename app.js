@@ -164,7 +164,8 @@ async function start() {
   }
   function fit() {
     if (!map || !layers.getBounds().isValid()) return;
-    map.fitBounds(layers.getBounds(), { padding: [30, 30], maxZoom: 11 });
+    map.stop();
+    map.fitBounds(layers.getBounds(), { padding: [30, 30], maxZoom: 11, animate: false });
   }
   function drawArrows() {
     if (!map) return;

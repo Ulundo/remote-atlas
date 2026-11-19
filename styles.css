@@ -30,7 +30,7 @@ button[aria-pressed="true"], button[aria-expanded="true"], button.selected { bac
 :focus-visible { outline: 2px solid #ffe2a7; outline-offset: 2px; }
 #fit { min-width: 44px; font-size: 1.4rem; }
 #days { display: flex; align-items: center; gap: .35rem; overflow-x: auto; padding: .5rem .15rem .3rem; }
-#days button { min-width: 44px; white-space: nowrap; }
+#days button { flex: none; min-width: 44px; white-space: nowrap; }
 #days .gap { flex: none; color: var(--muted); font-size: .72rem; padding: .25rem; white-space: nowrap; }
 .map-stage, #map { position: relative; min-height: 0; }
 #map { height: 100%; background: #26353c; }
