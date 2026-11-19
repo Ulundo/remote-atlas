@@ -1,0 +1,506 @@
+{
+  "iowa": {
+    "name": "Северо-Западная Айова",
+    "local": "Northwest Iowa",
+    "kind": "area",
+    "coords": [
+      43.2,
+      -96.0
+    ]
+  },
+  "sea": {
+    "name": "Сиэтл",
+    "local": "Seattle",
+    "kind": "real",
+    "coords": [
+      47.606,
+      -122.332
+    ]
+  },
+  "bf": {
+    "name": "Боинг-Филд",
+    "local": "Boeing Field / King County International Airport",
+    "kind": "real",
+    "coords": [
+      47.53,
+      -122.302
+    ]
+  },
+  "sc": {
+    "name": "Сиу-Сити",
+    "local": "Sioux City",
+    "kind": "real",
+    "coords": [
+      42.497,
+      -96.401
+    ]
+  },
+  "cam": {
+    "name": "Кембридж",
+    "local": "Cambridge",
+    "kind": "real",
+    "coords": [
+      52.205,
+      0.122
+    ]
+  },
+  "king": {
+    "name": "Королевство к’Шетриев",
+    "local": "Район владений Девина",
+    "kind": "fictional",
+    "coords": null
+  },
+  "man": {
+    "name": "Остров Мэн",
+    "local": "Isle of Man / Mannin",
+    "kind": "real",
+    "coords": [
+      54.233,
+      -4.54
+    ]
+  },
+  "trail": {
+    "name": "«Тропа опоссума»",
+    "local": "Трейлерный посёлок Девина",
+    "kind": "fictional",
+    "coords": null
+  },
+  "small": {
+    "name": "Местный аэропорт у «Тропы опоссума»",
+    "local": "Средний Запад, аэродром не указан",
+    "kind": "unknown",
+    "coords": null
+  },
+  "geo": {
+    "name": "Джорджтаун",
+    "local": "Georgetown, Seattle",
+    "kind": "real",
+    "coords": [
+      47.548,
+      -122.321
+    ]
+  },
+  "gold": {
+    "name": "Парк «Голден-Гарденс»",
+    "local": "Golden Gardens Park",
+    "kind": "real",
+    "coords": [
+      47.691,
+      -122.403
+    ]
+  },
+  "sno": {
+    "name": "Перевал Сноколми",
+    "local": "Snoqualmie Pass",
+    "kind": "real",
+    "coords": [
+      47.424,
+      -121.412
+    ]
+  },
+  "spo": {
+    "name": "Спокан",
+    "local": "Spokane",
+    "kind": "real",
+    "coords": [
+      47.659,
+      -117.426
+    ]
+  },
+  "met": {
+    "name": "Погранпереход у Металайн-Фоллз",
+    "local": "Boundary / Waneta",
+    "kind": "real",
+    "coords": [
+      49.0,
+      -117.621
+    ]
+  },
+  "el": {
+    "name": "Элфинстон",
+    "local": "Elphinstone",
+    "kind": "fictional",
+    "coords": null
+  },
+  "sch": {
+    "name": "Шлосс Хундшюттлер",
+    "local": "Schloss Hundschüttler",
+    "kind": "fictional",
+    "coords": null
+  },
+  "kot": {
+    "name": "Перевал Кутеней",
+    "local": "Kootenay Pass",
+    "kind": "real",
+    "coords": [
+      49.059,
+      -117.034
+    ]
+  },
+  "kel": {
+    "name": "Келоуна",
+    "local": "Kelowna",
+    "kind": "real",
+    "coords": [
+      49.888,
+      -119.496
+    ]
+  },
+  "abb": {
+    "name": "Эбботсфорд",
+    "local": "Abbotsford",
+    "kind": "real",
+    "coords": [
+      49.05,
+      -122.305
+    ]
+  },
+  "pac": {
+    "name": "Грузовой погранпереход",
+    "local": "Pacific Highway Border Crossing",
+    "kind": "inferred",
+    "coords": [
+      49.002,
+      -122.735
+    ]
+  },
+  "cou": {
+    "name": "Плотина Гранд-Кули",
+    "local": "Grand Coulee Dam",
+    "kind": "real",
+    "coords": [
+      47.955,
+      -118.981
+    ]
+  },
+  "vlad": {
+    "name": "Район Владивостока",
+    "local": "Vladivostok / Владивосток",
+    "kind": "area",
+    "coords": [
+      43.116,
+      131.886
+    ]
+  },
+  "xia": {
+    "name": "Сямэнь",
+    "local": "Xiamen / 厦门",
+    "kind": "real",
+    "coords": [
+      24.48,
+      118.09
+    ]
+  },
+  "gul": {
+    "name": "Гуланъюй",
+    "local": "Gulangyu / 鼓浪屿",
+    "kind": "real",
+    "coords": [
+      24.448,
+      118.065
+    ]
+  },
+  "hy": {
+    "name": "«Хайятт» у аэропорта Сямэня",
+    "local": "Hyatt, отель в романе",
+    "kind": "unknown",
+    "coords": null
+  },
+  "water": {
+    "name": "Набережная Сямэня",
+    "local": "Xiamen / 厦门",
+    "kind": "unknown",
+    "coords": null
+  },
+  "airport": {
+    "name": "Аэропорт Сямэня",
+    "local": "Xiamen Gaoqi / 厦门高崎",
+    "kind": "real",
+    "coords": [
+      24.544,
+      118.128
+    ]
+  },
+  "flat": {
+    "name": "Квартира группы Иванова",
+    "local": "Сямэнь",
+    "kind": "unknown",
+    "coords": null
+  },
+  "wan": {
+    "name": "Интернет-кафе",
+    "local": "Ванба, Сямэнь",
+    "kind": "unknown",
+    "coords": null
+  },
+  "hide": {
+    "name": "Укрытие группы Джонса",
+    "local": "Сямэнь",
+    "kind": "unknown",
+    "coords": null
+  },
+  "cruel": {
+    "name": "Жестокий остров",
+    "local": "Cruel Island",
+    "kind": "unknown",
+    "coords": null
+  },
+  "strait": {
+    "name": "Тайваньский пролив",
+    "local": "Taiwan Strait",
+    "kind": "area",
+    "coords": [
+      24.0,
+      118.75
+    ]
+  },
+  "peng": {
+    "name": "Южнее Пескадорских островов",
+    "local": "South of Penghu / 澎湖",
+    "kind": "area",
+    "coords": [
+      23.13,
+      119.52
+    ]
+  },
+  "scs": {
+    "name": "Южно-Китайское море",
+    "local": "South China Sea",
+    "kind": "area",
+    "coords": [
+      20.7,
+      119.2
+    ]
+  },
+  "luz": {
+    "name": "Побережье Лусона",
+    "local": "Luzon",
+    "kind": "area",
+    "coords": [
+      16.7,
+      120.2
+    ]
+  },
+  "bay": {
+    "name": "Прибрежный посёлок на Лусоне",
+    "local": "Luzon",
+    "kind": "unknown",
+    "coords": null
+  },
+  "hotel": {
+    "name": "Гостиничный квартал на Лусоне",
+    "local": "Luzon",
+    "kind": "unknown",
+    "coords": null
+  },
+  "net": {
+    "name": "Интернет-кафе на Лусоне",
+    "local": "Luzon",
+    "kind": "unknown",
+    "coords": null
+  },
+  "kin": {
+    "name": "Кинмэнь",
+    "local": "Kinmen / 金門",
+    "kind": "real",
+    "coords": [
+      24.444,
+      118.376
+    ]
+  },
+  "beach": {
+    "name": "Берег Кинмэня",
+    "local": "Kinmen / 金門",
+    "kind": "unknown",
+    "coords": null
+  },
+  "ridge": {
+    "name": "Хребет на Кинмэне",
+    "local": "Kinmen / 金門",
+    "kind": "unknown",
+    "coords": null
+  },
+  "bus": {
+    "name": "Остановки на Кинмэне",
+    "local": "Kinmen / 金門",
+    "kind": "unknown",
+    "coords": null
+  },
+  "jin": {
+    "name": "Цзиньчэн",
+    "local": "Jincheng / 金城",
+    "kind": "real",
+    "coords": [
+      24.433,
+      118.318
+    ]
+  },
+  "kair": {
+    "name": "Аэропорт Кинмэня",
+    "local": "Kinmen Shangyi / 金門尚義",
+    "kind": "real",
+    "coords": [
+      24.428,
+      118.36
+    ]
+  },
+  "tai": {
+    "name": "Тайбэй",
+    "local": "Taipei / 臺北",
+    "kind": "real",
+    "coords": [
+      25.033,
+      121.565
+    ]
+  },
+  "sing": {
+    "name": "Сингапур",
+    "local": "Singapore / 新加坡",
+    "kind": "real",
+    "coords": [
+      1.36,
+      103.99
+    ]
+  },
+  "lon": {
+    "name": "Хитроу",
+    "local": "London Heathrow",
+    "kind": "real",
+    "coords": [
+      51.47,
+      -0.454
+    ]
+  },
+  "mi": {
+    "name": "Лондон",
+    "local": "London",
+    "kind": "real",
+    "coords": [
+      51.507,
+      -0.128
+    ]
+  },
+  "dub": {
+    "name": "Дубай",
+    "local": "Dubai / دبي",
+    "kind": "real",
+    "coords": [
+      25.253,
+      55.365
+    ]
+  },
+  "naia": {
+    "name": "Аэропорт Ниной Акино",
+    "local": "Ninoy Aquino International Airport",
+    "kind": "real",
+    "coords": [
+      14.509,
+      121.019
+    ]
+  },
+  "mak": {
+    "name": "Макати",
+    "local": "Makati",
+    "kind": "real",
+    "coords": [
+      14.554,
+      121.024
+    ]
+  },
+  "wharf": {
+    "name": "Пристань западнее Макати",
+    "local": "Manila Bay",
+    "kind": "unknown",
+    "coords": null
+  },
+  "sang": {
+    "name": "Мыс Санглэй",
+    "local": "Sangley Point",
+    "kind": "real",
+    "coords": [
+      14.496,
+      120.904
+    ]
+  },
+  "zam": {
+    "name": "Замбоанга",
+    "local": "Zamboanga",
+    "kind": "real",
+    "coords": [
+      6.921,
+      122.079
+    ]
+  },
+  "ph": {
+    "name": "Филиппины",
+    "local": "Philippines / Pilipinas",
+    "kind": "area",
+    "coords": [
+      12.2,
+      122.7
+    ]
+  },
+  "van": {
+    "name": "Ванкувер",
+    "local": "Vancouver",
+    "kind": "real",
+    "coords": [
+      49.282,
+      -123.121
+    ]
+  },
+  "mine": {
+    "name": "Заброшенный рудник",
+    "local": "Британская Колумбия, место неизвестно",
+    "kind": "unknown",
+    "coords": null
+  },
+  "woods": {
+    "name": "Лесная стоянка",
+    "local": "Место неизвестно",
+    "kind": "unknown",
+    "coords": null
+  },
+  "ferry": {
+    "name": "Неназванная паромная переправа",
+    "local": "Место неизвестно",
+    "kind": "unknown",
+    "coords": null
+  },
+  "house": {
+    "name": "Укрытие после переправы",
+    "local": "Место неизвестно",
+    "kind": "unknown",
+    "coords": null
+  },
+  "road": {
+    "name": "Горная дорога",
+    "local": "Место неизвестно",
+    "kind": "unknown",
+    "coords": null
+  },
+  "camp": {
+    "name": "Стоянка у старых построек",
+    "local": "Место неизвестно",
+    "kind": "unknown",
+    "coords": null
+  },
+  "burn": {
+    "name": "Бурнс-Форд, Айдахо",
+    "local": "Burns Ford",
+    "kind": "fictional",
+    "coords": null
+  },
+  "cabin": {
+    "name": "Участок Фортрастов",
+    "local": "Северный Айдахо",
+    "kind": "fictional",
+    "coords": null
+  },
+  "ship": {
+    "name": "Судно у Сиэтла",
+    "local": "Puget Sound",
+    "kind": "unknown",
+    "coords": null
+  }
+}

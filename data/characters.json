@@ -1,0 +1,138 @@
+{
+  "z": {
+    "name": "Зула",
+    "group": "main"
+  },
+  "r": {
+    "name": "Ричард",
+    "group": "main"
+  },
+  "p": {
+    "name": "Питер",
+    "group": "main"
+  },
+  "s": {
+    "name": "Соколов",
+    "group": "main"
+  },
+  "o": {
+    "name": "Оливия",
+    "group": "main"
+  },
+  "j": {
+    "name": "Абдулла Джонс",
+    "group": "main"
+  },
+  "m": {
+    "name": "Марлон",
+    "group": "main"
+  },
+  "y": {
+    "name": "Юйся",
+    "group": "main"
+  },
+  "c": {
+    "name": "Чонгор",
+    "group": "main"
+  },
+  "i": {
+    "name": "Иванов",
+    "group": "support"
+  },
+  "se": {
+    "name": "Шеймус Костелло",
+    "group": "support"
+  },
+  "cv": {
+    "name": "Корваллис",
+    "group": "support"
+  },
+  "jo": {
+    "name": "Джон Фортраст",
+    "group": "support"
+  },
+  "ja": {
+    "name": "Джейк Фортраст",
+    "group": "support"
+  },
+  "g": {
+    "name": "Джордж Чоу",
+    "group": "support"
+  },
+  "mo": {
+    "name": "Мохаммед",
+    "group": "support"
+  },
+  "b": {
+    "name": "Бату",
+    "group": "support"
+  },
+  "pa": {
+    "name": "Павел",
+    "group": "support"
+  },
+  "sg": {
+    "name": "Сергей",
+    "group": "support"
+  },
+  "w": {
+    "name": "Уоллес",
+    "group": "support"
+  },
+  "ch": {
+    "name": "Чет",
+    "group": "support"
+  },
+  "k": {
+    "name": "Халид",
+    "group": "support"
+  },
+  "sh": {
+    "name": "Шарджиль",
+    "group": "support"
+  },
+  "er": {
+    "name": "Ершут",
+    "group": "support"
+  },
+  "sk": {
+    "name": "Шариф",
+    "group": "support"
+  },
+  "ma": {
+    "name": "Махир",
+    "group": "support"
+  },
+  "aw": {
+    "name": "Абдул-Вахаб",
+    "group": "support"
+  },
+  "za": {
+    "name": "Закир",
+    "group": "support"
+  },
+  "mr": {
+    "name": "Марчелла",
+    "group": "support"
+  },
+  "df": {
+    "name": "Дональд Кэмерон",
+    "group": "support"
+  },
+  "dv": {
+    "name": "Девин Скрелин",
+    "group": "support"
+  },
+  "al": {
+    "name": "Элис Фортраст",
+    "group": "support"
+  },
+  "ag": {
+    "name": "Абдул-Гафар",
+    "group": "support"
+  },
+  "jh": {
+    "name": "Джахандар",
+    "group": "support"
+  }
+}
