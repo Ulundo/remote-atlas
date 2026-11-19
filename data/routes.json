@@ -272,19 +272,32 @@
     "to_place_id": "geo",
     "via_place_ids": [],
     "transport": "Автомобиль",
-    "event": "Уоллес приезжает к Питеру из Ванкувера.",
+    "event": "Уоллес ночью приезжает к Питеру из Ванкувера на кабриолете. Пограничный переход не указан.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 1 · ch1-8, ночной визит"
+    "source_note": "Day 1 · ch1-8, ночной визит Уоллеса"
+  },
+  {
+    "id": "r070",
+    "day": 1,
+    "scene_id": "s087",
+    "character_ids": [
+      "seattle_helpers"
+    ],
+    "from_place_id": "starbucks_hq",
+    "to_place_id": "geo",
+    "via_place_ids": [],
+    "transport": "Транспорт неизвестен",
+    "event": "Помощник приносит кофе из штаб-квартиры Starbucks к Питеру. Транспорт и улицы не указаны.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 1 · ch1-9, кофе перед отъездом"
   },
   {
     "id": "r007",
     "day": 1,
     "scene_id": "s009",
     "character_ids": [
-      "i",
-      "s",
-      "c",
       "z",
       "p"
     ],
@@ -292,10 +305,10 @@
     "to_place_id": "bf",
     "via_place_ids": [],
     "transport": "Автомобиль",
-    "event": "Люди Иванова забирают Зулу и Питера и везут к частному терминалу.",
+    "event": "Зула и Питер оказываются в частном самолёте. Зула восстанавливает предшествующую поездку из дома Питера на машине. Дорога и машина неизвестны.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 1 · ch1-8–9; терминал опознан в ch1-35"
+    "source_note": "Day 1 · ch1-9, пробуждение на борту; Day 15 · ch1-35–36, привязка к частному терминалу Боинг-Филд"
   },
   {
     "id": "r008",
@@ -306,18 +319,32 @@
       "p",
       "s",
       "i",
-      "c",
-      "pa",
-      "sg"
+      "pacific_crew"
     ],
     "from_place_id": "bf",
     "to_place_id": "vlad",
     "via_place_ids": [],
     "transport": "Самолёт",
-    "event": "Перелёт через северную часть Тихого океана. Владивосток Зула определяет по курсу и виду из иллюминатора. Точный аэродром не установлен.",
+    "event": "Соколов называет Владивосток, и Зула сопоставляет его с видом из иллюминатора. Остров Ванкувер, юго-восточная Аляска, Алеуты и Камчатка звучат в её объяснении северной дуги. Точный аэродром и фактический трек неизвестны.",
     "confidence": "inferred",
     "route_type": "air",
-    "source_note": "Day 1 · ch1-9–10, вылет и догадка Зулы"
+    "source_note": "Day 1 · ch1-9–10, пробуждение, разговор о северной дуге и первая посадка"
+  },
+  {
+    "id": "r071",
+    "day": 1,
+    "scene_id": "s089",
+    "character_ids": [
+      "c"
+    ],
+    "from_place_id": "moscow",
+    "to_place_id": "vlad",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Чонгор садится в самолёт в Москве, аэропорт вылета не указан. У Владивостока прибывает второй борт и Чонгор переходит в самолёт Зулы и Питера. Консультанты садятся на тот же рейс к Сямэню.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 1 · ch1-10, рассказ Чонгора и посадка консультантов"
   },
   {
     "id": "r009",
@@ -330,16 +357,38 @@
       "i",
       "c",
       "pa",
-      "sg"
+      "sg",
+      "guards"
     ],
     "from_place_id": "vlad",
     "to_place_id": "airport",
     "via_place_ids": [],
     "transport": "Самолёт",
-    "event": "После промежуточной посадки группа летит на юг, к Сямэню.",
+    "event": "После пересадки Чонгора, посадки консультантов и прибытия двух русских пилотов борт вылетает к Сямэню. После посадки он останавливается у частных самолётов в стороне от терминала.",
     "confidence": "inferred",
     "route_type": "air",
-    "source_note": "Day 1 · ch1-10, повторный вылет"
+    "source_note": "Day 1 · ch1-10, повторный вылет и посадка; Day 4 · ch1-22, имена пилотов"
+  },
+  {
+    "id": "r072",
+    "day": 1,
+    "scene_id": "s091",
+    "character_ids": [
+      "z",
+      "p",
+      "c",
+      "s",
+      "i",
+      "guards"
+    ],
+    "from_place_id": "airport",
+    "to_place_id": "xia_highway",
+    "via_place_ids": [],
+    "transport": "Фургоны и автомобиль",
+    "event": "Консультанты сопровождают группу к двум фургонам. По команде Соколова машины покидают лётное поле. Впереди идёт чёрный «мерседес». Кортеж вливается в поток на шоссе.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 1 · ch1-10, рассадка и выезд из аэропорта"
   },
   {
     "id": "r010",
@@ -350,10 +399,10 @@
       "ch"
     ],
     "from_place_id": "sch",
-    "to_place_id": "el",
+    "to_place_id": "el_air",
     "via_place_ids": [],
     "transport": "Автомобиль",
-    "event": "Чет подвозит Ричарда к ожидающему самолёту.",
+    "event": "Чет подвозит Ричарда из шлосса к ожидающему двухмоторному самолёту на аэродроме Элфинстона.",
     "confidence": "approximate",
     "route_type": "schematic",
     "source_note": "Day 1 · ch1-10, Чет подвозит Ричарда"
@@ -363,18 +412,57 @@
     "day": 1,
     "scene_id": "s013",
     "character_ids": [
-      "r"
+      "r",
+      "el_pilot"
     ],
-    "from_place_id": "el",
-    "to_place_id": "sea",
-    "via_place_ids": [
-      "cou"
-    ],
+    "from_place_id": "el_air",
+    "to_place_id": "lake_field",
+    "via_place_ids": [],
     "transport": "Двухмоторный самолёт",
-    "event": "Ричард летит к Сиэтлу. Плотина Гранд-Кули указана как ориентир под маршрутом.",
+    "event": "Ричард летит из Элфинстона в район Сиэтла. Под маршрутом видна низина у плотины Гранд-Кули. После посадки самолёт находится у южной части озера Вашингтон. Точный аэродром не назван.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 1 · ch1-10, полёт над низиной"
+    "source_note": "Day 1 · ch1-10–11, полёт и встреча на лётном поле"
+  },
+  {
+    "id": "r073",
+    "day": 1,
+    "scene_id": "s092",
+    "character_ids": [
+      "r",
+      "cv"
+    ],
+    "from_place_id": "lake_field",
+    "to_place_id": "corp",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Корваллис встречает Ричарда на лётном поле и везёт его на «Приусе» в штаб-квартиру Корпорации-9592. Дорога занимает около получаса.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 1 · ch1-11, встреча на лётном поле и поездка в офис"
+  },
+  {
+    "id": "r074",
+    "day": 2,
+    "scene_id": "s093",
+    "character_ids": [
+      "pa",
+      "sg",
+      "z",
+      "p",
+      "c",
+      "s",
+      "i",
+      "guards"
+    ],
+    "from_place_id": "xia_highway",
+    "to_place_id": "pilot_hotel",
+    "via_place_ids": [],
+    "transport": "Фургоны и автомобиль",
+    "event": "По дороге из аэропорта обоих пилотов высаживают у отеля. Остальная группа продолжает путь.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 2 · ch1-12, высадка двух пилотов"
   },
   {
     "id": "r012",
@@ -386,17 +474,16 @@
       "i",
       "s",
       "c",
-      "pa",
-      "sg"
+      "guards"
     ],
-    "from_place_id": "airport",
+    "from_place_id": "pilot_hotel",
     "to_place_id": "flat",
     "via_place_ids": [],
     "transport": "Автомобиль",
-    "event": "Пилотов высаживают около аэропорта. Остальные едут на базу Иванова в Сямэне.",
+    "event": "После высадки пилотов кортеж следует по прибрежной дороге к офисной высотке. Машины въезжают в подземный паркинг, группа поднимается на 43-й этаж.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 2 · ch1-12, высадка пилотов"
+    "source_note": "Day 2 · ch1-12, кольцевая дорога и прибытие на базу"
   },
   {
     "id": "r013",
@@ -634,24 +721,6 @@
     "confidence": "approximate",
     "route_type": "direction",
     "source_note": "Day 5 · ch1-25–26, карта и остановка двигателя"
-  },
-  {
-    "id": "r026",
-    "day": 17,
-    "scene_id": "s032",
-    "character_ids": [
-      "m",
-      "y",
-      "c"
-    ],
-    "from_place_id": "peng",
-    "to_place_id": "scs",
-    "via_place_ids": [],
-    "transport": "Дрейф и самодельные паруса",
-    "event": "После потери хода течение и ветер выносят судно на юг, в Южно-Китайское море. Экипаж сооружает паруса.",
-    "confidence": "approximate",
-    "route_type": "direction",
-    "source_note": "Day 17 · ch1-38, ретроспектива после потери хода"
   },
   {
     "id": "r027",
@@ -1141,6 +1210,24 @@
     "confidence": "approximate",
     "route_type": "schematic",
     "source_note": "Day 15 · ch1-36, дорога по горам"
+  },
+  {
+    "id": "r026",
+    "day": 17,
+    "scene_id": "s032",
+    "character_ids": [
+      "m",
+      "y",
+      "c"
+    ],
+    "from_place_id": "peng",
+    "to_place_id": "scs",
+    "via_place_ids": [],
+    "transport": "Дрейф и самодельные паруса",
+    "event": "После потери хода течение и ветер выносят судно на юг, в Южно-Китайское море. Экипаж сооружает паруса.",
+    "confidence": "approximate",
+    "route_type": "direction",
+    "source_note": "Day 17 · ch1-38, ретроспектива после потери хода"
   },
   {
     "id": "r055",

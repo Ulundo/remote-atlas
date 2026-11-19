@@ -222,8 +222,8 @@
     ]
   },
   "flat": {
-    "name": "Квартира группы Иванова",
-    "local": "Сямэнь",
+    "name": "Офисная база группы Иванова",
+    "local": "43-й этаж офисной высотки, Сямэнь",
     "kind": "unknown",
     "coords": null
   },
@@ -500,6 +500,51 @@
   "ship": {
     "name": "Судно у Сиэтла",
     "local": "Puget Sound",
+    "kind": "unknown",
+    "coords": null
+  },
+  "moscow": {
+    "name": "Москва",
+    "local": "Moscow / Москва",
+    "kind": "real",
+    "coords": [
+      55.7558,
+      37.6176
+    ]
+  },
+  "el_air": {
+    "name": "Аэродром Элфинстона",
+    "local": "Elphinstone",
+    "kind": "fictional",
+    "coords": null
+  },
+  "lake_field": {
+    "name": "Лётное поле у южной части озера Вашингтон",
+    "local": "Lake Washington / район Сиэтла",
+    "kind": "unknown",
+    "coords": null
+  },
+  "corp": {
+    "name": "Штаб-квартира Корпорации-9592",
+    "local": "Corporation 9592 / Сиэтл",
+    "kind": "fictional",
+    "coords": null
+  },
+  "starbucks_hq": {
+    "name": "Штаб-квартира Starbucks",
+    "local": "Starbucks Center / Сиэтл",
+    "kind": "unknown",
+    "coords": null
+  },
+  "xia_highway": {
+    "name": "Шоссе у аэропорта Сямэня",
+    "local": "Xiamen / 厦门",
+    "kind": "unknown",
+    "coords": null
+  },
+  "pilot_hotel": {
+    "name": "Отель у аэропорта Сямэня",
+    "local": "Xiamen / 厦门",
     "kind": "unknown",
     "coords": null
   }

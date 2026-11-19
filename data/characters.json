@@ -134,5 +134,25 @@
   "jh": {
     "name": "Джахандар",
     "group": "support"
+  },
+  "seattle_helpers": {
+    "name": "Помощники Иванова в Джорджтауне",
+    "group": "support"
+  },
+  "guards": {
+    "name": "Консультанты Соколова",
+    "group": "support"
+  },
+  "russian_contacts": {
+    "name": "Встречающие у Владивостока",
+    "group": "support"
+  },
+  "pacific_crew": {
+    "name": "Экипаж рейса из Сиэтла",
+    "group": "support"
+  },
+  "el_pilot": {
+    "name": "Пилот Ричарда",
+    "group": "support"
   }
 }
