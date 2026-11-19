@@ -113,8 +113,17 @@ async function start() {
     if (item.scene_id && item.via_place_ids.length) {
       article.append(node('p', `Через ${item.via_place_ids.map(id => places[id].name).join(' → ')}`));
     }
-    if (item.scene_id && !geometry(item).length) {
-      article.append(node('p', 'Для линии на карте недостаточно координат.', 'meta'));
+    if (item.scene_id) {
+      const shape = geometry(item);
+      if (!shape.length) {
+        article.append(node('p', 'Для линии на карте недостаточно координат.', 'meta'));
+      } else if (map && visible.includes(item)) {
+        article.append(button('Приблизить маршрут', () => {
+          closeDetails();
+          fitBounds(L.latLngBounds(shape.flat()), 16);
+          el('fit').focus({ preventScroll: true });
+        }));
+      }
     }
     if (route && !item.scene_id) {
       article.append(button(title(route), () => details([route])));
@@ -163,9 +172,12 @@ async function start() {
       normalize([item.event, item.transport, participants(item), ...locations].join(' ')).includes(word));
   }
   function fit() {
-    if (!map || !layers.getBounds().isValid()) return;
+    if (map) fitBounds(layers.getBounds(), 11);
+  }
+  function fitBounds(bounds, maxZoom) {
+    if (!bounds.isValid()) return;
     map.stop();
-    map.fitBounds(layers.getBounds(), { padding: [30, 30], maxZoom: 11, animate: false });
+    map.fitBounds(bounds, { padding: [42, 42], maxZoom, animate: false });
   }
   function drawArrows() {
     if (!map) return;

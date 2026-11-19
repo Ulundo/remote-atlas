@@ -514,15 +514,21 @@
   },
   "el_air": {
     "name": "Аэродром Элфинстона",
-    "local": "Elphinstone",
+    "local": "Elphinstone, условная метка у южного края озера Кутеней",
     "kind": "fictional",
-    "coords": null
+    "coords": [
+      49.19,
+      -116.65
+    ]
   },
   "lake_field": {
     "name": "Лётное поле у южной части озера Вашингтон",
-    "local": "Lake Washington / район Сиэтла",
-    "kind": "unknown",
-    "coords": null
+    "local": "Lake Washington / район Сиэтла, региональная метка",
+    "kind": "area",
+    "coords": [
+      47.5,
+      -122.22
+    ]
   },
   "corp": {
     "name": "Штаб-квартира Корпорации-9592",
