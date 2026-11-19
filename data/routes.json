@@ -1,0 +1,1407 @@
+[
+  {
+    "id": "r001",
+    "day": 0,
+    "scene_id": "s002",
+    "character_ids": [
+      "z",
+      "p"
+    ],
+    "from_place_id": "sea",
+    "to_place_id": "spo",
+    "via_place_ids": [
+      "sno"
+    ],
+    "transport": "Автомобиль",
+    "event": "По дороге на лыжный уик-энд проезжают через перевал Сноколми и Спокан. Здесь показана современная геометрия коридора I‑90.",
+    "confidence": "inferred",
+    "route_type": "road",
+    "source_note": "Day 0 · ch1-6–7, Сноколми и I‑90",
+    "geometry": [
+      [
+        47.60631,
+        -122.33214
+      ],
+      [
+        47.59002,
+        -122.30832
+      ],
+      [
+        47.57802,
+        -122.13249
+      ],
+      [
+        47.53199,
+        -122.02691
+      ],
+      [
+        47.53158,
+        -121.94563
+      ],
+      [
+        47.50615,
+        -121.90206
+      ],
+      [
+        47.51419,
+        -121.83732
+      ],
+      [
+        47.47416,
+        -121.78145
+      ],
+      [
+        47.46294,
+        -121.70856
+      ],
+      [
+        47.44398,
+        -121.69041
+      ],
+      [
+        47.42458,
+        -121.59788
+      ],
+      [
+        47.39782,
+        -121.54877
+      ],
+      [
+        47.393,
+        -121.46735
+      ],
+      [
+        47.42437,
+        -121.41108
+      ],
+      [
+        47.3424,
+        -121.36351
+      ],
+      [
+        47.27131,
+        -121.27026
+      ],
+      [
+        47.26365,
+        -121.21587
+      ],
+      [
+        47.22059,
+        -121.14935
+      ],
+      [
+        47.18232,
+        -121.03912
+      ],
+      [
+        47.19467,
+        -120.95941
+      ],
+      [
+        47.15589,
+        -120.82514
+      ],
+      [
+        47.11708,
+        -120.7981
+      ],
+      [
+        47.04024,
+        -120.63016
+      ],
+      [
+        46.97621,
+        -120.55384
+      ],
+      [
+        46.97188,
+        -120.35605
+      ],
+      [
+        46.94396,
+        -120.23826
+      ],
+      [
+        46.93761,
+        -120.01509
+      ],
+      [
+        46.94527,
+        -119.96146
+      ],
+      [
+        47.00254,
+        -119.97288
+      ],
+      [
+        47.10316,
+        -119.82637
+      ],
+      [
+        47.1027,
+        -119.27644
+      ],
+      [
+        47.08409,
+        -118.957
+      ],
+      [
+        47.08617,
+        -118.72027
+      ],
+      [
+        47.11093,
+        -118.57003
+      ],
+      [
+        47.11303,
+        -118.37379
+      ],
+      [
+        47.20901,
+        -118.23167
+      ],
+      [
+        47.24543,
+        -118.11225
+      ],
+      [
+        47.29799,
+        -118.02495
+      ],
+      [
+        47.33441,
+        -117.9162
+      ],
+      [
+        47.59319,
+        -117.56302
+      ],
+      [
+        47.659,
+        -117.426
+      ]
+    ]
+  },
+  {
+    "id": "r002",
+    "day": 0,
+    "scene_id": "s003",
+    "character_ids": [
+      "z",
+      "p"
+    ],
+    "from_place_id": "spo",
+    "to_place_id": "sch",
+    "via_place_ids": [
+      "met",
+      "el"
+    ],
+    "transport": "Автомобиль",
+    "event": "После Спокана едут к переходу у Металайн-Фоллз, а затем в Элфинстон и шлосс.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 0 · ch1-6–7, дорога на лыжный уик-энд"
+  },
+  {
+    "id": "r003",
+    "day": 0,
+    "scene_id": "s004",
+    "character_ids": [
+      "w",
+      "p",
+      "z"
+    ],
+    "from_place_id": "van",
+    "to_place_id": "sch",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Бухгалтер Уоллес приезжает из Ванкувера для сделки с Питером.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 0 · ch1-6–7, сделка в таверне"
+  },
+  {
+    "id": "r004",
+    "day": 0,
+    "scene_id": "s006",
+    "character_ids": [
+      "z",
+      "p"
+    ],
+    "from_place_id": "sch",
+    "to_place_id": "sea",
+    "via_place_ids": [
+      "el",
+      "kot",
+      "kel",
+      "abb",
+      "pac"
+    ],
+    "transport": "Автомобиль",
+    "event": "Выбирают канадскую дорогу через Келоуну и Эбботсфорд. Направляются к Арке Мира, но по табло сворачивают на Грузовой пункт.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 0 · ch1-7, дорога назад и табло у границы"
+  },
+  {
+    "id": "r005",
+    "day": 0,
+    "scene_id": "s007",
+    "character_ids": [
+      "w"
+    ],
+    "from_place_id": "sch",
+    "to_place_id": "van",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Уоллес возвращается домой и обнаруживает, что не может открыть файлы.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 0 · ch1-7 и рассказ Уоллеса, ch1-8"
+  },
+  {
+    "id": "r006",
+    "day": 1,
+    "scene_id": "s008",
+    "character_ids": [
+      "w"
+    ],
+    "from_place_id": "van",
+    "to_place_id": "geo",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Уоллес приезжает к Питеру из Ванкувера.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 1 · ch1-8, ночной визит"
+  },
+  {
+    "id": "r007",
+    "day": 1,
+    "scene_id": "s009",
+    "character_ids": [
+      "i",
+      "s",
+      "c",
+      "z",
+      "p"
+    ],
+    "from_place_id": "geo",
+    "to_place_id": "bf",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Люди Иванова забирают Зулу и Питера и везут к частному терминалу.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 1 · ch1-8–9; терминал опознан в ch1-35"
+  },
+  {
+    "id": "r008",
+    "day": 1,
+    "scene_id": "s010",
+    "character_ids": [
+      "z",
+      "p",
+      "s",
+      "i",
+      "c",
+      "pa",
+      "sg"
+    ],
+    "from_place_id": "bf",
+    "to_place_id": "vlad",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Перелёт через северную часть Тихого океана. Владивосток Зула определяет по курсу и виду из иллюминатора. Точный аэродром не установлен.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 1 · ch1-9–10, вылет и догадка Зулы"
+  },
+  {
+    "id": "r009",
+    "day": 1,
+    "scene_id": "s011",
+    "character_ids": [
+      "z",
+      "p",
+      "s",
+      "i",
+      "c",
+      "pa",
+      "sg"
+    ],
+    "from_place_id": "vlad",
+    "to_place_id": "airport",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "После промежуточной посадки группа летит на юг, к Сямэню.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 1 · ch1-10, повторный вылет"
+  },
+  {
+    "id": "r010",
+    "day": 1,
+    "scene_id": "s012",
+    "character_ids": [
+      "r",
+      "ch"
+    ],
+    "from_place_id": "sch",
+    "to_place_id": "el",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Чет подвозит Ричарда к ожидающему самолёту.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 1 · ch1-10, Чет подвозит Ричарда"
+  },
+  {
+    "id": "r011",
+    "day": 1,
+    "scene_id": "s013",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "el",
+    "to_place_id": "sea",
+    "via_place_ids": [
+      "cou"
+    ],
+    "transport": "Двухмоторный самолёт",
+    "event": "Ричард летит к Сиэтлу. Плотина Гранд-Кули указана как ориентир под маршрутом.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 1 · ch1-10, полёт над низиной"
+  },
+  {
+    "id": "r012",
+    "day": 2,
+    "scene_id": "s014",
+    "character_ids": [
+      "z",
+      "p",
+      "i",
+      "s",
+      "c",
+      "pa",
+      "sg"
+    ],
+    "from_place_id": "airport",
+    "to_place_id": "flat",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Пилотов высаживают около аэропорта. Остальные едут на базу Иванова в Сямэне.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 2 · ch1-12, высадка пилотов"
+  },
+  {
+    "id": "r013",
+    "day": 2,
+    "scene_id": "s015",
+    "character_ids": [
+      "z",
+      "c",
+      "s"
+    ],
+    "from_place_id": "flat",
+    "to_place_id": "xia",
+    "via_place_ids": [],
+    "transport": "Пешком и такси",
+    "event": "Трое выходят к прибрежной дороге и ищут след вымогателя по игровым данным.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 2 · ch1-12, выход через паркинг"
+  },
+  {
+    "id": "r014",
+    "day": 2,
+    "scene_id": "s016",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "sea",
+    "to_place_id": "small",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Ричард выбирает местный аэропорт ближе к Девину. Омаха здесь упоминается как обычный вариант, которым он в этот раз не пользуется.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 2 · ch1-13, прилёт на Средний Запад"
+  },
+  {
+    "id": "r015",
+    "day": 2,
+    "scene_id": "s017",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "small",
+    "to_place_id": "trail",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Из небольшого аэропорта едет в «Тропу опоссума» на встречу с Девином.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 2 · ch1-13, от аэродрома к Девину"
+  },
+  {
+    "id": "r016",
+    "day": 3,
+    "scene_id": "s018",
+    "character_ids": [
+      "z",
+      "y",
+      "s",
+      "c"
+    ],
+    "from_place_id": "xia",
+    "to_place_id": "wan",
+    "via_place_ids": [],
+    "transport": "Городской транспорт и пешком",
+    "event": "Юйся помогает с поиском в интернет-кафе. Точный адрес неизвестен.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 3 · ch1-15, визит в ванбу"
+  },
+  {
+    "id": "r017",
+    "day": 4,
+    "scene_id": "s021",
+    "character_ids": [
+      "j",
+      "z",
+      "y",
+      "mo",
+      "b"
+    ],
+    "from_place_id": "xia",
+    "to_place_id": "cruel",
+    "via_place_ids": [],
+    "transport": "Автомобиль и судно",
+    "event": "Джонс везёт пленниц к рыболовецкому острову. Жестокий остров — прозвище, официальное название не установлено.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 4 · ch1-20–21, дорога к Жестокому острову"
+  },
+  {
+    "id": "r018",
+    "day": 4,
+    "scene_id": "s022",
+    "character_ids": [
+      "m",
+      "c"
+    ],
+    "from_place_id": "xia",
+    "to_place_id": "cruel",
+    "via_place_ids": [],
+    "transport": "Моторная лодка",
+    "event": "Марлон и Чонгор идут за судном Джонса к Жестокому острову.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 4 · ch1-22, погоня на малой лодке"
+  },
+  {
+    "id": "r019",
+    "day": 4,
+    "scene_id": "s023",
+    "character_ids": [
+      "z",
+      "j",
+      "k"
+    ],
+    "from_place_id": "cruel",
+    "to_place_id": "water",
+    "via_place_ids": [
+      "gul"
+    ],
+    "transport": "Баркас",
+    "event": "Джонс возвращается с Зулой в Сямэнь. Баркас проходит проливом мимо Гуланъюя и останавливается у пирса.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 4 · ch1-22, обратный ход баркаса"
+  },
+  {
+    "id": "r020",
+    "day": 4,
+    "scene_id": "s024",
+    "character_ids": [
+      "z",
+      "j",
+      "k"
+    ],
+    "from_place_id": "water",
+    "to_place_id": "hy",
+    "via_place_ids": [],
+    "transport": "Такси",
+    "event": "Джонс едет в «Хайятт» у аэропорта.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 4 · ch1-22, выезд с пирса"
+  },
+  {
+    "id": "r021",
+    "day": 4,
+    "scene_id": "s025",
+    "character_ids": [
+      "z",
+      "j",
+      "k",
+      "pa",
+      "sg"
+    ],
+    "from_place_id": "hy",
+    "to_place_id": "airport",
+    "via_place_ids": [],
+    "transport": "Такси",
+    "event": "Павел и Сергей с людьми Джонса едут к самолёту.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 4 · ch1-23, два такси"
+  },
+  {
+    "id": "r022",
+    "day": 4,
+    "scene_id": "s026",
+    "character_ids": [
+      "s"
+    ],
+    "from_place_id": "xia",
+    "to_place_id": "gul",
+    "via_place_ids": [],
+    "transport": "Водное такси",
+    "event": "Соколов нанимает катер, чтобы добраться до Оливии на Гуланъюе.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 4 · ch1-22–23, паромная пристань"
+  },
+  {
+    "id": "r023",
+    "day": 4,
+    "scene_id": "s027",
+    "character_ids": [
+      "s",
+      "o"
+    ],
+    "from_place_id": "gul",
+    "to_place_id": "beach",
+    "via_place_ids": [
+      "kin"
+    ],
+    "transport": "Лодка и вплавь",
+    "event": "Оливия и Соколов выходят с Гуланъюя и идут мимо аэропорта по Сюньцзянгану к Кинмэню. Место выхода на берег не установлено.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 4 · ch1-23–24, Сюньцзянган и выход на берег"
+  },
+  {
+    "id": "r024",
+    "day": 4,
+    "scene_id": "s028",
+    "character_ids": [
+      "m",
+      "y",
+      "c",
+      "mo",
+      "b"
+    ],
+    "from_place_id": "cruel",
+    "to_place_id": "strait",
+    "via_place_ids": [],
+    "transport": "Рыболовное судно",
+    "event": "Трое уходят на «Сел-ане». Мохаммед остаётся рулевым, Бату на борту.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 4 · ch1-23, борт и смена курса"
+  },
+  {
+    "id": "r025",
+    "day": 5,
+    "scene_id": "s031",
+    "character_ids": [
+      "m",
+      "y",
+      "c"
+    ],
+    "from_place_id": "strait",
+    "to_place_id": "peng",
+    "via_place_ids": [],
+    "transport": "Рыболовное судно",
+    "event": "Намечают курс на Пескадоры. Течение сносит судно южнее ближайшего острова. Топливо заканчивается до высадки.",
+    "confidence": "approximate",
+    "route_type": "direction",
+    "source_note": "Day 5 · ch1-25–26, карта и остановка двигателя"
+  },
+  {
+    "id": "r026",
+    "day": 17,
+    "scene_id": "s032",
+    "character_ids": [
+      "m",
+      "y",
+      "c"
+    ],
+    "from_place_id": "peng",
+    "to_place_id": "scs",
+    "via_place_ids": [],
+    "transport": "Дрейф и самодельные паруса",
+    "event": "После потери хода течение и ветер выносят судно на юг, в Южно-Китайское море. Экипаж сооружает паруса.",
+    "confidence": "approximate",
+    "route_type": "direction",
+    "source_note": "Day 17 · ch1-38, ретроспектива после потери хода"
+  },
+  {
+    "id": "r027",
+    "day": 5,
+    "scene_id": "s033",
+    "character_ids": [
+      "s",
+      "o"
+    ],
+    "from_place_id": "beach",
+    "to_place_id": "ridge",
+    "via_place_ids": [],
+    "transport": "Пешком",
+    "event": "После выхода из воды идут по острову, избегая дорог и жилья. План вылета меняется.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 5 · ch1-25, обход населённых мест"
+  },
+  {
+    "id": "r028",
+    "day": 5,
+    "scene_id": "s034",
+    "character_ids": [
+      "s",
+      "o"
+    ],
+    "from_place_id": "ridge",
+    "to_place_id": "bus",
+    "via_place_ids": [],
+    "transport": "Автобус и пешком",
+    "event": "Следуют в сторону паромного причала, замечают наблюдение. Поездка на автобусе помогает осмотреть обстановку.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 5 · ch1-25, дорога к причалу и автобус"
+  },
+  {
+    "id": "r029",
+    "day": 5,
+    "scene_id": "s035",
+    "character_ids": [
+      "o",
+      "g"
+    ],
+    "from_place_id": "bus",
+    "to_place_id": "jin",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Чоу отвозит Оливию в гостиницу в Цзиньчэне. Там ей меняют внешность.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 5 · ch1-26, встреча с Джорджем Чоу"
+  },
+  {
+    "id": "r030",
+    "day": 5,
+    "scene_id": "s036",
+    "character_ids": [
+      "s",
+      "o",
+      "g"
+    ],
+    "from_place_id": "jin",
+    "to_place_id": "beach",
+    "via_place_ids": [],
+    "transport": "Автомобиль и пешком",
+    "event": "Чоу организует встречу с лодочником. Соколов передаёт Оливии сведения о Джонсе и идёт к лодке.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 5 · ch1-26, машина вдоль западного берега"
+  },
+  {
+    "id": "r031",
+    "day": 5,
+    "scene_id": "s038",
+    "character_ids": [
+      "o",
+      "g"
+    ],
+    "from_place_id": "beach",
+    "to_place_id": "kair",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Чоу и Оливия едут в аэропорт, покупают билеты и проходят досмотр.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 5 · ch1-27, поездка после расставания с Соколовым"
+  },
+  {
+    "id": "r032",
+    "day": 5,
+    "scene_id": "s039",
+    "character_ids": [
+      "o",
+      "g"
+    ],
+    "from_place_id": "kair",
+    "to_place_id": "tai",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Оливия и Чоу летят в Тайбэй. Чоу сообщает, что Соколов не появился на запланированном судне до Лонг-Бич.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 5 · ch1-27, ближайший борт"
+  },
+  {
+    "id": "r033",
+    "day": 6,
+    "scene_id": "s041",
+    "character_ids": [
+      "z",
+      "j",
+      "k",
+      "er",
+      "sh",
+      "sk",
+      "ma",
+      "aw"
+    ],
+    "from_place_id": "airport",
+    "to_place_id": "mine",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "После перелёта через Тихий океан самолёт садится на короткую полосу у рудника. Провинция определяется по рассказу Зулы, точное место посадки неизвестно.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 6 · ch1-29, посадка на рассвете"
+  },
+  {
+    "id": "r034",
+    "day": 7,
+    "scene_id": "s043",
+    "character_ids": [
+      "z",
+      "j",
+      "sh",
+      "sk",
+      "ma",
+      "er"
+    ],
+    "from_place_id": "mine",
+    "to_place_id": "woods",
+    "via_place_ids": [],
+    "transport": "Мини-грузовик",
+    "event": "Зулу увозят от рудника на грузовике с двойной кабиной.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 7 · ch1-31, выезд из района посадки"
+  },
+  {
+    "id": "r035",
+    "day": 8,
+    "scene_id": "s045",
+    "character_ids": [
+      "z"
+    ],
+    "from_place_id": "iowa",
+    "to_place_id": "sea",
+    "via_place_ids": [
+      "cabin"
+    ],
+    "transport": "Арендованный грузовик",
+    "event": "Зула вспоминает переезд из Айовы в Сиэтл и остановку у Джейка и его семьи.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 8 · ch1-32, воспоминание Зулы о переезде"
+  },
+  {
+    "id": "r036",
+    "day": 9,
+    "scene_id": "s046",
+    "character_ids": [
+      "z",
+      "j",
+      "er"
+    ],
+    "from_place_id": "woods",
+    "to_place_id": "house",
+    "via_place_ids": [
+      "ferry"
+    ],
+    "transport": "Внедорожник и паром",
+    "event": "По звукам Зула узнаёт короткую переправу. Она сомневается, что это паром на остров Ванкувер.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 9 · ch1-33, поездка с завязанными глазами"
+  },
+  {
+    "id": "r037",
+    "day": 10,
+    "scene_id": "s048",
+    "character_ids": [
+      "r",
+      "df",
+      "dv"
+    ],
+    "from_place_id": "cam",
+    "to_place_id": "king",
+    "via_place_ids": [],
+    "transport": "Самолёт и наземный транспорт",
+    "event": "После визита к Дональду Кэмерону в Кембридже Ричард вылетает из Англии и встречается с Девином Скрелином. Аэропорты не указаны.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 10 · ch1-34, разговор с Девином"
+  },
+  {
+    "id": "r038",
+    "day": 10,
+    "scene_id": "s049",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "king",
+    "to_place_id": "iowa",
+    "via_place_ids": [],
+    "transport": "Арендованная машина",
+    "event": "После разговора с Девином Ричард едет на семейную ферму, где встречает Джона и Элис.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 15 · ch1-35, рассказ о визите пять дней назад"
+  },
+  {
+    "id": "r039",
+    "day": 15,
+    "scene_id": "s050",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "iowa",
+    "to_place_id": "sea",
+    "via_place_ids": [
+      "sc"
+    ],
+    "transport": "Автомобиль и самолёт",
+    "event": "После ночёвки на ферме Ричард едет в Сиу-Сити к ожидающему самолёту и возвращается в Сиэтл. Это ретроспектива.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 15 · ch1-35, дорога с фермы и возвращение"
+  },
+  {
+    "id": "r040",
+    "day": 15,
+    "scene_id": "s052",
+    "character_ids": [
+      "jo"
+    ],
+    "from_place_id": "iowa",
+    "to_place_id": "sea",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Джон выезжает ночью и прилетает в Сиэтл после получения письма Зулы. Аэропорт вылета в этом эпизоде не указан.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 15 · ch1-35, утренний рейс Джона"
+  },
+  {
+    "id": "r041",
+    "day": 15,
+    "scene_id": "s053",
+    "character_ids": [
+      "r",
+      "jo",
+      "cv",
+      "o"
+    ],
+    "from_place_id": "sea",
+    "to_place_id": "bf",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Ричард, Джон и Корваллис приезжают к запланированному вылету. Оливия встречает их в терминале и говорит, что искать Зулу в Китае уже поздно.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 15 · ch1-35, встреча у частного самолёта"
+  },
+  {
+    "id": "r042",
+    "day": 15,
+    "scene_id": "s054",
+    "character_ids": [
+      "o"
+    ],
+    "from_place_id": "tai",
+    "to_place_id": "sing",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "После расставания с Чоу Оливия летит в Сингапур. Перелёт описан ретроспективно в этой секции.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 15 · ch1-35, ретроспектива возвращения"
+  },
+  {
+    "id": "r043",
+    "day": 15,
+    "scene_id": "s055",
+    "character_ids": [
+      "o"
+    ],
+    "from_place_id": "sing",
+    "to_place_id": "lon",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Оливия прилетает в Хитроу для разбора операции.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 15 · ch1-35, прибытие в Хитроу"
+  },
+  {
+    "id": "r044",
+    "day": 15,
+    "scene_id": "s056",
+    "character_ids": [
+      "o"
+    ],
+    "from_place_id": "lon",
+    "to_place_id": "mi",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "После прибытия её доставляют на встречу с сотрудниками МИ-6.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 15 · ch1-35, встреча с кураторами"
+  },
+  {
+    "id": "r045",
+    "day": 15,
+    "scene_id": "s057",
+    "character_ids": [
+      "o"
+    ],
+    "from_place_id": "lon",
+    "to_place_id": "dub",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Оливию отправляют на Филиппины через Дубай.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 15 · ch1-35, назначение в Манилу"
+  },
+  {
+    "id": "r046",
+    "day": 15,
+    "scene_id": "s058",
+    "character_ids": [
+      "o"
+    ],
+    "from_place_id": "dub",
+    "to_place_id": "naia",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "После пересадки Оливия прилетает в аэропорт Ниной Акино.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 15 · ch1-35, прибытие на Филиппины"
+  },
+  {
+    "id": "r047",
+    "day": 15,
+    "scene_id": "s059",
+    "character_ids": [
+      "o",
+      "se"
+    ],
+    "from_place_id": "naia",
+    "to_place_id": "mak",
+    "via_place_ids": [],
+    "transport": "Городская поездка",
+    "event": "Оливия встречается с Шеймусом в Маниле. Следующий выезд начинается из Макати.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 15 · ch1-35–36, встреча с Шеймусом"
+  },
+  {
+    "id": "r048",
+    "day": 15,
+    "scene_id": "s060",
+    "character_ids": [
+      "o",
+      "se"
+    ],
+    "from_place_id": "mak",
+    "to_place_id": "wharf",
+    "via_place_ids": [],
+    "transport": "Такси и пешком",
+    "event": "После пробки они идут к западу, через кварталы и дворы, к лодке.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 15 · ch1-36, пробки и пеший обход"
+  },
+  {
+    "id": "r049",
+    "day": 15,
+    "scene_id": "s061",
+    "character_ids": [
+      "o",
+      "se"
+    ],
+    "from_place_id": "wharf",
+    "to_place_id": "sang",
+    "via_place_ids": [],
+    "transport": "Моторное каноэ",
+    "event": "Каноэ довозит их до военной авиабазы на мысе Санглэй.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 15 · ch1-36, переправа через бухту"
+  },
+  {
+    "id": "r050",
+    "day": 15,
+    "scene_id": "s062",
+    "character_ids": [
+      "o",
+      "se"
+    ],
+    "from_place_id": "sang",
+    "to_place_id": "zam",
+    "via_place_ids": [],
+    "transport": "Двухмоторный самолёт",
+    "event": "Летят в Замбоангу проверить филиппинскую версию маршрута Джонса.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 15 · ch1-36, вылет с авиабазы"
+  },
+  {
+    "id": "r051",
+    "day": 15,
+    "scene_id": "s063",
+    "character_ids": [
+      "o",
+      "se"
+    ],
+    "from_place_id": "zam",
+    "to_place_id": "naia",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Возвращаются в Манилу. Оливия переключается на североамериканское направление.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 15 · ch1-36, после Замбоанги"
+  },
+  {
+    "id": "r052",
+    "day": 15,
+    "scene_id": "s064",
+    "character_ids": [
+      "o"
+    ],
+    "from_place_id": "naia",
+    "to_place_id": "van",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Оливия покупает билет в Ванкувер. В тексте отмечено пересечение линии перемены дат.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Day 15 · ch1-36, самостоятельный вылет"
+  },
+  {
+    "id": "r053",
+    "day": 15,
+    "scene_id": "s065",
+    "character_ids": [
+      "o"
+    ],
+    "from_place_id": "van",
+    "to_place_id": "sea",
+    "via_place_ids": [],
+    "transport": "Прокатная машина",
+    "event": "Оливия едет на юг в Сиэтл и встречается с Марчеллой в ФБР.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 15 · ch1-36, разговор с Марчеллой"
+  },
+  {
+    "id": "r054",
+    "day": 15,
+    "scene_id": "s066",
+    "character_ids": [
+      "z",
+      "j",
+      "sh",
+      "er",
+      "za"
+    ],
+    "from_place_id": "house",
+    "to_place_id": "road",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Зула видит реки и железнодорожные пути, но не может привязать путь к карте. Бурнс-Форд и гора Абандон появляются в нарисованной ею схеме возможного пути.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 15 · ch1-36, дорога по горам"
+  },
+  {
+    "id": "r055",
+    "day": 17,
+    "scene_id": "s067",
+    "character_ids": [
+      "m",
+      "y",
+      "c"
+    ],
+    "from_place_id": "scs",
+    "to_place_id": "luz",
+    "via_place_ids": [],
+    "transport": "Рыболовное судно под самодельными парусами",
+    "event": "Экипаж берёт курс на юго-восток вместо дальнейшего дрейфа. После штормов «Сел-аня» подходит к Лусону. Точная бухта не названа.",
+    "confidence": "approximate",
+    "route_type": "direction",
+    "source_note": "Day 17 · ch1-38, семь дней после шторма"
+  },
+  {
+    "id": "r056",
+    "day": 17,
+    "scene_id": "s068",
+    "character_ids": [
+      "m",
+      "y",
+      "c"
+    ],
+    "from_place_id": "luz",
+    "to_place_id": "bay",
+    "via_place_ids": [],
+    "transport": "Моторно-парусная лодка",
+    "event": "Пересаживаются на местную лодку и около двух часов идут вдоль берега до высадки.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 17 · ch1-38, прибрежная лодка"
+  },
+  {
+    "id": "r057",
+    "day": 17,
+    "scene_id": "s069",
+    "character_ids": [
+      "m",
+      "y",
+      "c"
+    ],
+    "from_place_id": "bay",
+    "to_place_id": "hotel",
+    "via_place_ids": [],
+    "transport": "Автобус и пешком",
+    "event": "Едут в гостиничный квартал, снимают комнату. Возможный отъезд в Манилу пока только обсуждают.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 17 · ch1-38–39, дорога от берега"
+  },
+  {
+    "id": "r058",
+    "day": 17,
+    "scene_id": "s070",
+    "character_ids": [
+      "r",
+      "jo",
+      "o"
+    ],
+    "from_place_id": "bf",
+    "to_place_id": "geo",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Ричард показывает здание в Джорджтауне, откуда увезли Зулу и Питера. За обедом Оливия рассказывает о Сямэне.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 17 · ch1-38, поездка к месту похищения"
+  },
+  {
+    "id": "r059",
+    "day": 17,
+    "scene_id": "s071",
+    "character_ids": [
+      "ja"
+    ],
+    "from_place_id": "burn",
+    "to_place_id": "sea",
+    "via_place_ids": [],
+    "transport": "Автобус",
+    "event": "Джейк прибывает на автобусе. Ричард и Оливия встречают его в Сиэтле. Начальная точка указана по району дома Джейка, станция отправления неизвестна.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 17 · ch1-38, встреча на автостанции"
+  },
+  {
+    "id": "r060",
+    "day": 17,
+    "scene_id": "s072",
+    "character_ids": [
+      "r",
+      "jo",
+      "ja"
+    ],
+    "from_place_id": "sea",
+    "to_place_id": "el",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Затем трое Фортрастов прилетают в Элфинстон. Сиэтл — их предыдущее подтверждённое место; аэродром вылета здесь не назван.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 17 · ch1-38 и Day 18 · ch1-40, прибытие сутки назад"
+  },
+  {
+    "id": "r061",
+    "day": 18,
+    "scene_id": "s073",
+    "character_ids": [
+      "jo",
+      "ja"
+    ],
+    "from_place_id": "el",
+    "to_place_id": "burn",
+    "via_place_ids": [],
+    "transport": "«Сессна»",
+    "event": "По просьбе Ричарда пилот увозит Джона и Джейка в сторону Бурнс-Форда. Сцена показывает вылет, а не посадку.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 18 · ch1-40, вылет братьев"
+  },
+  {
+    "id": "r062",
+    "day": 18,
+    "scene_id": "s074",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "el",
+    "to_place_id": "sch",
+    "via_place_ids": [],
+    "transport": "Внедорожник",
+    "event": "Из аэропорта Ричард едет в шлосс, оставаясь на связи с Корваллисом.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 18 · ch1-40, после вылета «Сессны»"
+  },
+  {
+    "id": "r063",
+    "day": 18,
+    "scene_id": "s075",
+    "character_ids": [
+      "o"
+    ],
+    "from_place_id": "sea",
+    "to_place_id": "van",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Оливия едет из Сиэтла в Ванкувер за новой зацепкой и связывается с Фурнье.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 18 · ch1-40–41, пересечение границы"
+  },
+  {
+    "id": "r064",
+    "day": 18,
+    "scene_id": "s077",
+    "character_ids": [
+      "m",
+      "y",
+      "c"
+    ],
+    "from_place_id": "hotel",
+    "to_place_id": "net",
+    "via_place_ids": [],
+    "transport": "Пешком",
+    "event": "На Лусоне линия героев продолжается в интернет-кафе. Адрес и путь по гостиничному кварталу неизвестны.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 18 · ch1-40–41, ночные поиски"
+  },
+  {
+    "id": "r065",
+    "day": 18,
+    "scene_id": "s078",
+    "character_ids": [
+      "z",
+      "j",
+      "sh",
+      "er",
+      "za",
+      "ag",
+      "jh"
+    ],
+    "from_place_id": "road",
+    "to_place_id": "camp",
+    "via_place_ids": [],
+    "transport": "Пешком",
+    "event": "Группа покидает машины, забирает груз и идёт по тропе мимо старых построек. Положение тропы неизвестно.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 18 · ch1-40, переход от стоянки"
+  },
+  {
+    "id": "r066",
+    "day": 18,
+    "scene_id": "s079",
+    "character_ids": [
+      "j",
+      "ag"
+    ],
+    "from_place_id": "camp",
+    "to_place_id": "sch",
+    "via_place_ids": [],
+    "transport": "Транспорт неизвестен",
+    "event": "Джонс с напарником приходит к Ричарду в шлосс. Способ, которым они добрались до шлосса, не указан.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 18 · ch1-42, незваные гости"
+  },
+  {
+    "id": "r067",
+    "day": 18,
+    "scene_id": "s080",
+    "character_ids": [
+      "r",
+      "j",
+      "ag"
+    ],
+    "from_place_id": "sch",
+    "to_place_id": "camp",
+    "via_place_ids": [],
+    "transport": "Транспорт неизвестен",
+    "event": "После встречи в шлоссе Ричард оказывается у лагеря. Перемещение восстанавливается по двум сценам.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 18 · ch1-42, встреча у лагеря"
+  },
+  {
+    "id": "r068",
+    "day": 18,
+    "scene_id": "s082",
+    "character_ids": [
+      "s"
+    ],
+    "from_place_id": "ship",
+    "to_place_id": "gold",
+    "via_place_ids": [],
+    "transport": "Вплавь и пешком",
+    "event": "Соколов добирается с судна до берега и узнаёт от подростка, что это парк «Голден-Гарденс» в Сиэтле.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 18 · ch1-42–43, выход на берег"
+  },
+  {
+    "id": "r069",
+    "day": 18,
+    "scene_id": "s083",
+    "character_ids": [
+      "s"
+    ],
+    "from_place_id": "kin",
+    "to_place_id": "ship",
+    "via_place_ids": [],
+    "transport": "Лодка и морское судно",
+    "event": "Кинмэнь и выход с судна у Сиэтла связывает рассказ Соколова. Промежуточные порты и трек не установлены.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 18 · ch1-42–43, лодочник и выход с корабля"
+  }
+]
