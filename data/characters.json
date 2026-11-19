@@ -186,5 +186,21 @@
   "missionaries": {
     "name": "Церковные миссионеры",
     "group": "support"
+  },
+  "geraldine": {
+    "name": "Джеральдина Леви",
+    "group": "support"
+  },
+  "nolan": {
+    "name": "Нолан Сюй",
+    "group": "support"
+  },
+  "border_officer": {
+    "name": "Пограничник на Грузовом пункте",
+    "group": "support"
+  },
+  "cooks": {
+    "name": "Повара из Ванкувера",
+    "group": "support"
   }
 }

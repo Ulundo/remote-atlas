@@ -109,11 +109,11 @@
   },
   "met": {
     "name": "Погранпереход у Металайн-Фоллз",
-    "local": "Boundary / Waneta",
+    "local": "Metaline Falls / Nelway",
     "kind": "real",
     "coords": [
       49.0,
-      -117.621
+      -117.2997
     ]
   },
   "el": {
@@ -611,6 +611,30 @@
   "selk": {
     "name": "Хребет Селькирк",
     "local": "Selkirk Mountains, место перехода неизвестно",
+    "kind": "unknown",
+    "coords": null
+  },
+  "everett": {
+    "name": "Район Эверетта",
+    "local": "Everett, Washington",
+    "kind": "area",
+    "coords": [
+      47.978,
+      -122.202
+    ]
+  },
+  "koot_south": {
+    "name": "Южный край озера Кутеней",
+    "local": "Kootenay Lake, региональный ориентир",
+    "kind": "area",
+    "coords": [
+      49.19,
+      -116.65
+    ]
+  },
+  "sch_dam": {
+    "name": "Дамба на дороге от шлосса",
+    "local": "Дамба не установлена",
     "kind": "unknown",
     "coords": null
   }
