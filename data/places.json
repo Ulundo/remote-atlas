@@ -547,5 +547,71 @@
     "local": "Xiamen / 厦门",
     "kind": "unknown",
     "coords": null
+  },
+  "bc_start": {
+    "name": "Британская Колумбия, место выезда неизвестно",
+    "local": "British Columbia",
+    "kind": "unknown",
+    "coords": null
+  },
+  "farm": {
+    "name": "Ферма Фортрастов",
+    "local": "Условная метка региона Northwest Iowa, адрес неизвестен",
+    "kind": "area",
+    "coords": [
+      43.2,
+      -96.0
+    ]
+  },
+  "minn": {
+    "name": "Миннеаполис",
+    "local": "Minneapolis",
+    "kind": "real",
+    "coords": [
+      44.9778,
+      -93.265
+    ]
+  },
+  "walmart": {
+    "name": "«Уолмарт» в западной Айове",
+    "local": "Walmart, магазин не установлен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "hyvee": {
+    "name": "Кафетерий «Хай-Ви» у Ред-Оука",
+    "local": "Hy-Vee, Red Oak",
+    "kind": "area",
+    "coords": [
+      41.0091,
+      -95.2255
+    ]
+  },
+  "sudancamp": {
+    "name": "Лагерь беженцев в Судане",
+    "local": "Лагерь не назван",
+    "kind": "unknown",
+    "coords": null
+  },
+  "la": {
+    "name": "Лос-Анджелес",
+    "local": "Los Angeles",
+    "kind": "real",
+    "coords": [
+      34.0522,
+      -118.2437
+    ]
+  },
+  "alaska_home": {
+    "name": "Родительский дом Плутона на Аляске",
+    "local": "Alaska, населённый пункт неизвестен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "selk": {
+    "name": "Хребет Селькирк",
+    "local": "Selkirk Mountains, место перехода неизвестно",
+    "kind": "unknown",
+    "coords": null
   }
 }

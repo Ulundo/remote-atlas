@@ -1,5 +1,222 @@
 [
   {
+    "id": "r075",
+    "day": null,
+    "scene_id": "s001",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "bc_start",
+    "to_place_id": "spo",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Ричард добирается до Спокана на машине. Он оценивает дорогу в три-четыре часа с учётом снега и очереди на границе. Место старта и погранпереход в рассказе не названы.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-3, разговор на ферме"
+  },
+  {
+    "id": "r076",
+    "day": null,
+    "scene_id": "s095",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "spo",
+    "to_place_id": "minn",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "event": "Из Спокана Ричард летит прямым рейсом в Миннеаполис. В рассказе названы города.",
+    "confidence": "inferred",
+    "route_type": "air",
+    "source_note": "Пролог · ch1-3, разговор на ферме"
+  },
+  {
+    "id": "r077",
+    "day": null,
+    "scene_id": "s096",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "minn",
+    "to_place_id": "farm",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "В Миннеаполисе Ричард арендует «Меркьюри Гранд Маркиз» и едет на семейную ферму в северо-западной Айове. Точный адрес фермы и шоссе не названы. Точка фермы на карте обозначает регион.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-3, разговор на ферме"
+  },
+  {
+    "id": "r078",
+    "day": null,
+    "scene_id": "s098",
+    "character_ids": [
+      "r",
+      "z",
+      "p",
+      "relative"
+    ],
+    "from_place_id": "farm",
+    "to_place_id": "walmart",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Ричард едет с фермы в «Уолмарт». С ним Зула, Питер и родственница, чьё имя он не вспоминает. Магазин не привязан к конкретному городу.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-3, поездка за покупками"
+  },
+  {
+    "id": "r079",
+    "day": null,
+    "scene_id": "s099",
+    "character_ids": [
+      "r",
+      "z",
+      "p",
+      "relative"
+    ],
+    "from_place_id": "walmart",
+    "to_place_id": "farm",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Компания возвращается после покупок. Ричард ставит машину у крыльца фермы.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-3, обратная дорога к дому"
+  },
+  {
+    "id": "r080",
+    "day": null,
+    "scene_id": "s101",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "farm",
+    "to_place_id": "hyvee",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "На следующее утро Ричард едет по работе и останавливается у Ред-Оука, чтобы позавтракать в кафетерии «Хай-Ви». Метка показывает только район названного города.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-4, выезд на следующий день и остановка у Ред-Оука"
+  },
+  {
+    "id": "r081",
+    "day": null,
+    "scene_id": "s103",
+    "character_ids": [
+      "z",
+      "missionaries",
+      "pat",
+      "bob"
+    ],
+    "from_place_id": "sudancamp",
+    "to_place_id": "iowa",
+    "via_place_ids": [],
+    "transport": "Транспорт неизвестен",
+    "event": "Предыстория. Миссионеры вывозят Зулу из лагеря беженцев в Судане. В Айове её удочеряют Патрисия и Боб. Лагерь, пересадки и транспорт неизвестны.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-3, воспоминание об удочерении"
+  },
+  {
+    "id": "r082",
+    "day": null,
+    "scene_id": "s104",
+    "character_ids": [
+      "z"
+    ],
+    "from_place_id": "iowa",
+    "to_place_id": "sea",
+    "via_place_ids": [],
+    "transport": "Транспорт неизвестен",
+    "event": "Предыстория. После окончания Айовского университета Зула переезжает в Сиэтл. На семейной встрече она говорит, что приехала туда четыре месяца назад.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-3, разговор о работе"
+  },
+  {
+    "id": "r083",
+    "day": null,
+    "scene_id": "s105",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "iowa",
+    "to_place_id": "bc_start",
+    "via_place_ids": [],
+    "transport": "Попутный фургон",
+    "event": "Предыстория, 1972 год. Ричард уезжает в Канаду. В воспоминании его подбирает фургон. Пункт пересечения границы и место посадки неизвестны.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-3 и ch1-5, разговор и воспоминание о переезде"
+  },
+  {
+    "id": "r084",
+    "day": null,
+    "scene_id": "s106",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "selk",
+    "to_place_id": "cabin",
+    "via_place_ids": [],
+    "transport": "Пешком",
+    "event": "Предыстория. Ричард вспоминает, как пешком шёл через хребет Селькирк и обнаружил остатки хижины у ручья. Точный путь неизвестен.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-4, переход через хребет"
+  },
+  {
+    "id": "r085",
+    "day": null,
+    "scene_id": "s107",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "bc_start",
+    "to_place_id": "burn",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Предыстория, 1977 год. Ричард пересекает границу на автомобиле и едет в Бурнс-Форд разбираться с правом собственности на участок.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-4, поездка в архив"
+  },
+  {
+    "id": "r086",
+    "day": null,
+    "scene_id": "s109",
+    "character_ids": [
+      "r"
+    ],
+    "from_place_id": "el",
+    "to_place_id": "la",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "Предыстория, 1995 год. После спора об удочерении Зулы Ричард едет из Элфинстона в Лос-Анджелес и встречается с Бобом. Трасса и адреса не указаны.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-4, поездка к Бобу"
+  },
+  {
+    "id": "r087",
+    "day": null,
+    "scene_id": "s110",
+    "character_ids": [
+      "pluto"
+    ],
+    "from_place_id": "alaska_home",
+    "to_place_id": "sea",
+    "via_place_ids": [],
+    "transport": "Транспорт неизвестен",
+    "event": "Предыстория. Плутон создаёт код в родительском доме на Аляске и переезжает в Сиэтл. Пункт отправления и транспорт не названы.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Пролог · ch1-4, история работы над Т’Эррой"
+  },
+  {
     "id": "r001",
     "day": 0,
     "scene_id": "s002",

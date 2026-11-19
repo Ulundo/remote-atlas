@@ -37,6 +37,11 @@ button[aria-pressed="true"], button[aria-expanded="true"], button.selected { bac
 #map .leaflet-tile-pane { filter: brightness(.76) saturate(.56); }
 .legend { position: absolute; z-index: 500; bottom: 1.45rem; left: .6rem; padding: .35rem .55rem; pointer-events: none; background: #172027; border-radius: .35rem; font-size: .75rem; }
 .legend span { display: inline-block; width: 1.3rem; border-top: 2px dashed var(--accent); vertical-align: middle; }
+.legend b { color: var(--accent); margin-left: .5rem; }
+.route-arrows { z-index: 450; pointer-events: none; }
+.route-arrow { display: grid; place-items: center; color: var(--accent); font: bold 18px/1 system-ui, sans-serif; }
+.route-arrow.air { color: #72c2ce; }
+.route-arrow span { -webkit-text-stroke: .45px #141b20; text-shadow: 0 1px 2px #141b20; }
 aside, #detail, #results { background: var(--panel); border: 1px solid var(--line); padding: .8rem; overflow: auto; }
 aside, #detail { position: absolute; z-index: 650; left: .55rem; right: .55rem; border-radius: .55rem; }
 aside { top: .5rem; max-height: calc(100% - 1rem); }

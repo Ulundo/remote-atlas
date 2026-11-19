@@ -154,5 +154,37 @@
   "el_pilot": {
     "name": "Пилот Ричарда",
     "group": "support"
+  },
+  "pat": {
+    "name": "Патрисия Фортраст",
+    "group": "support"
+  },
+  "bob": {
+    "name": "Боб",
+    "group": "support"
+  },
+  "nick": {
+    "name": "Николас Фортраст",
+    "group": "support"
+  },
+  "len": {
+    "name": "Лен",
+    "group": "support"
+  },
+  "rosie": {
+    "name": "Рози",
+    "group": "support"
+  },
+  "relative": {
+    "name": "Неназванная родственница Фортрастов",
+    "group": "support"
+  },
+  "pluto": {
+    "name": "Плутон (П. Т. Ольшевски)",
+    "group": "support"
+  },
+  "missionaries": {
+    "name": "Церковные миссионеры",
+    "group": "support"
   }
 }

@@ -18,7 +18,7 @@ const read = async name => {
   return response.json();
 };
 const normalize = value => value.toLowerCase().replaceAll('ё', 'е').trim();
-const dayName = day => day === null ? 'До Day 0' : `День ${day}`;
+const dayName = day => day === null ? 'Пролог' : `День ${day}`;
 const precision = { exact: 'Названное место', inferred: 'Определено по контексту', approximate: 'Приблизительно' };
 const placeKind = { real: 'Реальный топоним', fictional: 'Вымышленный топоним', unknown: 'Координаты неизвестны', inferred: 'Идентификация по контексту', area: 'Ориентир региона' };
 const routeKind = { air: 'Дуга большого круга', schematic: 'Схематичный путь', road: 'Восстановлено по дорогам', sea: 'Восстановлено по описанию', walk: 'Восстановлено по описанию', direction: 'Известно направление' };
@@ -66,7 +66,10 @@ async function start() {
   const participants = item => item.character_ids.map(id => people[id].name).join(', ');
   const map = window.L ? L.map('map', { zoomControl: false, zoomSnap: .25 }).setView([31, 110], 2) : null;
   const layers = map && L.featureGroup().addTo(map);
+  const arrows = map && L.layerGroup().addTo(map);
   if (map) {
+    const arrowPane = map.createPane('route-arrows');
+    arrowPane.classList.add('route-arrows');
     L.control.zoom({ position: 'topright', zoomInTitle: 'Приблизить', zoomOutTitle: 'Отдалить' }).addTo(map);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
@@ -75,6 +78,7 @@ async function start() {
   }
   const state = { day: 'all', character: '', group: 'all', query: '' };
   let visible = [];
+  let drawnRoutes = [];
   let previousFocus;
 
   el('limit').textContent = `До начала Day ${lastDay + 1}`;
@@ -162,6 +166,39 @@ async function start() {
     if (!map || !layers.getBounds().isValid()) return;
     map.fitBounds(layers.getBounds(), { padding: [30, 30], maxZoom: 11 });
   }
+  function drawArrows() {
+    if (!map) return;
+    arrows.clearLayers();
+    const zoom = map.getZoom();
+    for (const { shape, air } of drawnRoutes) {
+      for (const path of shape) {
+        const points = path.map(point => map.project(point, zoom));
+        const lengths = points.slice(1).map((point, index) => point.distanceTo(points[index]));
+        const total = lengths.reduce((sum, length) => sum + length, 0);
+        if (total < 30) continue;
+        const count = Math.min(12, Math.max(1, Math.floor(total / 115)));
+        let index = 0;
+        let covered = 0;
+        for (let i = 0; i < count; i++) {
+          const distance = total * (i + .62) / count;
+          while (covered + lengths[index] < distance) covered += lengths[index++];
+          const a = points[index];
+          const delta = points[index + 1].subtract(a);
+          const offset = distance - covered;
+          const anchor = a.add(delta.multiplyBy(offset / lengths[index]));
+          const angle = Math.atan2(delta.y, delta.x) * 180 / Math.PI;
+          const icon = L.divIcon({
+            className: air ? 'route-arrow air' : 'route-arrow',
+            html: `<span aria-hidden="true" style="transform: rotate(${angle}deg)">➤</span>`,
+            iconSize: [20, 20],
+          });
+          L.marker(map.unproject(anchor, zoom), {
+            pane: 'route-arrows', icon, interactive: false, keyboard: false,
+          }).addTo(arrows);
+        }
+      }
+    }
+  }
   function render() {
     const selectedScenes = scenes.filter(matches);
     const selectedRoutes = routes.filter(matches);
@@ -172,9 +209,11 @@ async function start() {
       : 'Карта недоступна · записи доступны в списке';
     if (!layers) return;
     layers.clearLayers();
+    drawnRoutes = [];
     for (const route of selectedRoutes) {
       const shape = geometry(route);
       if (!shape.length) continue;
+      drawnRoutes.push({ shape, air: route.route_type === 'air' });
       const dashed = ['schematic', 'direction'].includes(route.route_type);
       const line = L.polyline(shape, {
         weight: 5, opacity: .86, color: route.route_type === 'air' ? '#72c2ce' : '#f0cb86',
@@ -213,6 +252,7 @@ async function start() {
         details(items);
       });
     }
+    drawArrows();
   }
   function renderResults() {
     const container = el('results');
@@ -264,7 +304,7 @@ async function start() {
       nav.append(control);
     };
     addDay('all', 'Все дни');
-    addDay(null, 'До Day 0');
+    addDay(null, 'Пролог');
     for (const day of days) {
       addDay(day, String(day));
       const gap = gaps.find(([first]) => first === day + 1);
@@ -299,6 +339,7 @@ async function start() {
   el('fit').onclick = fit;
   el('close').onclick = () => closeDetails(true);
   map?.on('click', () => closeDetails());
+  map?.on('zoomend', drawArrows);
   document.addEventListener('keydown', event => {
     if (event.key !== 'Escape') return;
     if (!el('detail').hidden) closeDetails(true);
