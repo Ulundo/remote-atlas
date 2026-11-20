@@ -198,7 +198,7 @@ async function start() {
     if (!map) return;
     arrows.clearLayers();
     const zoom = map.getZoom();
-    for (const { shape, air } of drawnRoutes) {
+    for (const { shape, air, arrivalHeading } of drawnRoutes) {
       for (const path of shape) {
         const points = path.map(point => map.project(point, zoom));
         const lengths = points.slice(1).map((point, index) => point.distanceTo(points[index]));
@@ -225,6 +225,20 @@ async function start() {
           }).addTo(arrows);
         }
       }
+      if (Number.isFinite(arrivalHeading)) {
+        const endpoint = map.project(shape.at(-1).at(-1), zoom);
+        const angle = arrivalHeading - 90;
+        const radians = angle * Math.PI / 180;
+        const projected = endpoint.add(L.point(Math.cos(radians) * 24, Math.sin(radians) * 24));
+        const icon = L.divIcon({
+          className: 'route-arrow arrival-heading',
+          html: `<span aria-hidden="true" style="transform: rotate(${angle}deg)">➤</span>`,
+          iconSize: [22, 22],
+        });
+        L.marker(map.unproject(projected, zoom), {
+          pane: 'route-arrows', icon, interactive: false, keyboard: false,
+        }).addTo(arrows);
+      }
     }
   }
   function render() {
@@ -243,7 +257,7 @@ async function start() {
     for (const route of selectedRoutes) {
       const shape = geometry(route);
       if (!shape.length) continue;
-      drawnRoutes.push({ shape, air: route.route_type === 'air' });
+      drawnRoutes.push({ shape, air: route.route_type === 'air', arrivalHeading: route.arrival_heading });
       const dashed = ['schematic', 'direction'].includes(route.route_type);
       const line = L.polyline(shape, {
         weight: 5, opacity: .86, color: route.route_type === 'air' ? '#72c2ce' : '#f0cb86',
