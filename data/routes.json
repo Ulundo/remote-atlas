@@ -2423,5 +2423,55 @@
     "confidence": "approximate",
     "route_type": "schematic",
     "source_note": "Day 18 · ch1-42–43, лодочник и выход с корабля"
+  },
+  {
+    "id": "r127",
+    "scene_id": "s164",
+    "from_place_id": "geo",
+    "to_place_id": "corp",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "route_type": "schematic",
+    "day": 6,
+    "character_ids": [
+      "r"
+    ],
+    "event": "Ричард возвращается из Джорджтауна в офис Корпорации-9592. Адрес офиса и дорога неизвестны.",
+    "confidence": "approximate",
+    "source_note": "Day 6 · ch1-29, возвращение"
+  },
+  {
+    "id": "r128",
+    "scene_id": "s165",
+    "from_place_id": "mine_plane",
+    "to_place_id": "mine",
+    "via_place_ids": [],
+    "transport": "Пешком",
+    "route_type": "schematic",
+    "day": 6,
+    "character_ids": [
+      "z",
+      "j"
+    ],
+    "event": "Джонс выводит Зулу из самолёта по прорытой в снегу дорожке к домикам у рудника. Координаты долины неизвестны.",
+    "confidence": "approximate",
+    "source_note": "Day 6 · ch1-29, выход из самолёта"
+  },
+  {
+    "id": "r129",
+    "scene_id": "s166",
+    "from_place_id": "beijing",
+    "to_place_id": "sydney",
+    "via_place_ids": [],
+    "transport": "Способ переезда не уточняется",
+    "route_type": "schematic",
+    "day": 6,
+    "character_ids": [
+      "nolan",
+      "harriet"
+    ],
+    "event": "Нолан разговаривает с Ричардом из Сиднея. Он с Гарриет уехал из Китая. Ванкувер пока назван следующим пунктом поездки. Аэропорты и пересадки не указаны.",
+    "confidence": "approximate",
+    "source_note": "Day 6 · ch1-29, звонок Нолана"
   }
 ]

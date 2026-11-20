@@ -916,5 +916,29 @@
     "local": "Адрес не установлен",
     "kind": "unknown",
     "coords": null
+  },
+  "sydney": {
+    "name": "Сидней",
+    "local": "Sydney",
+    "kind": "real",
+    "coords": [
+      -33.869,
+      151.209
+    ]
+  },
+  "beijing": {
+    "name": "Пекин",
+    "local": "Beijing / 北京",
+    "kind": "real",
+    "coords": [
+      39.904,
+      116.407
+    ]
+  },
+  "mine_plane": {
+    "name": "Самолёт у рудника",
+    "local": "Британская Колумбия, точка неизвестна",
+    "kind": "unknown",
+    "coords": null
   }
 }

@@ -176,7 +176,7 @@
     "group": "support"
   },
   "relative": {
-    "name": "Неназванная родственница Фортрастов",
+    "name": "Викки",
     "group": "support"
   },
   "pluto": {
@@ -265,6 +265,14 @@
   },
   "nick_neighbor": {
     "name": "Николас, сосед Зулы",
+    "group": "support"
+  },
+  "harriet": {
+    "name": "Гарриет Сюй",
+    "group": "support"
+  },
+  "welder": {
+    "name": "Сварщик, арендатор Питера",
     "group": "support"
   }
 }
