@@ -940,5 +940,41 @@
     "local": "Британская Колумбия, точка неизвестна",
     "kind": "unknown",
     "coords": null
+  },
+  "mine_forest": {
+    "name": "Лес рядом с рудником",
+    "local": "Британская Колумбия, точка не установлена",
+    "kind": "unknown",
+    "coords": null
+  },
+  "mine_trailer": {
+    "name": "Вагончик «Эйрстрим» у рудника",
+    "local": "Британская Колумбия, точка не установлена",
+    "kind": "unknown",
+    "coords": null
+  },
+  "valley_river": {
+    "name": "Горная речка выше рудника",
+    "local": "Британская Колумбия, точка не установлена",
+    "kind": "unknown",
+    "coords": null
+  },
+  "radio_clearing": {
+    "name": "Лесная поляна для проверки рации",
+    "local": "Британская Колумбия, точка не установлена",
+    "kind": "unknown",
+    "coords": null
+  },
+  "day7_pass": {
+    "name": "Перевал над долиной рудника",
+    "local": "Британская Колумбия, точка не установлена",
+    "kind": "unknown",
+    "coords": null
+  },
+  "richard_home": {
+    "name": "Квартира Ричарда в Сиэтле",
+    "local": "Адрес не установлен",
+    "kind": "unknown",
+    "coords": null
   }
 }
