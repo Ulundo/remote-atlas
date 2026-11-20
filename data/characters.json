@@ -250,5 +250,21 @@
   "boatman_day4": {
     "name": "Лодочник на Гуланъюе",
     "group": "support"
+  },
+  "chou_stylist": {
+    "name": "Стилистка Джорджа Чоу",
+    "group": "support"
+  },
+  "chou_boatman": {
+    "name": "Лодочник Джорджа Чоу",
+    "group": "support"
+  },
+  "james_neighbor": {
+    "name": "Джеймс, сосед Зулы",
+    "group": "support"
+  },
+  "nick_neighbor": {
+    "name": "Николас, сосед Зулы",
+    "group": "support"
   }
 }

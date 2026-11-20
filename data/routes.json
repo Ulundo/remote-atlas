@@ -1524,6 +1524,186 @@
     "source_note": "Day 4 · ch1-23, выход с острова; ch1-25, имена членов команды"
   },
   {
+    "id": "r027",
+    "day": 5,
+    "scene_id": "s033",
+    "character_ids": [
+      "s",
+      "o"
+    ],
+    "from_place_id": "beach",
+    "to_place_id": "ridge",
+    "via_place_ids": [],
+    "transport": "Пешком",
+    "event": "Соколов и Оливия идут пешком через хребет. Сначала рассматривают путь в аэропорт, затем меняют план и выбирают восточный обход. Тропы и перекрёсток не идентифицированы.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 5 · ch1-25, пешие переходы с берега и смена плана"
+  },
+  {
+    "id": "r121",
+    "scene_id": "s153",
+    "from_place_id": "airport",
+    "to_place_id": "tai_north_air",
+    "transport": "Самолёт",
+    "via_place_ids": [
+      "tai_south_air"
+    ],
+    "route_type": "direction",
+    "day": 5,
+    "character_ids": [
+      "z",
+      "j",
+      "pa",
+      "sg",
+      "k",
+      "er",
+      "sh",
+      "sk",
+      "ma",
+      "aw"
+    ],
+    "event": "После вылета Зула отмечает движение к югу. Борт проходит южнее Тайваня, затем поворачивает на северо-восток и минует северную оконечность острова. Пунктир передаёт последовательность ориентиров, а не фактический трек.",
+    "confidence": "approximate",
+    "source_note": "Day 5 · ch1-25–26, вылет и обход Тайваня"
+  },
+  {
+    "id": "r028",
+    "day": 5,
+    "scene_id": "s034",
+    "character_ids": [
+      "s",
+      "o"
+    ],
+    "from_place_id": "ridge",
+    "to_place_id": "kin_road",
+    "via_place_ids": [],
+    "transport": "Пешком",
+    "event": "Они идут на восток до места, откуда виден перекрёсток, затем разделяются. Оливия добирается до автобусной остановки, Соколов уходит к месту условленной встречи.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 5 · ch1-25, пеший переход и расставание на перекрёстке"
+  },
+  {
+    "id": "r122",
+    "scene_id": "s155",
+    "from_place_id": "kin_road",
+    "to_place_id": "kair",
+    "transport": "Автобус",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 5,
+    "character_ids": [
+      "o"
+    ],
+    "event": "Автобус довозит Оливию до главного терминала аэропорта Кинмэня. Она остаётся в салоне и продолжает путь.",
+    "confidence": "approximate",
+    "source_note": "Day 5 · ch1-25, остановка у терминала"
+  },
+  {
+    "id": "r123",
+    "scene_id": "s156",
+    "from_place_id": "kair",
+    "to_place_id": "knife_factory",
+    "transport": "Автобус",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 5,
+    "character_ids": [
+      "o"
+    ],
+    "event": "Из аэропорта Оливия продолжает путь на автобусе до фабрики ножей. Там встречает связного, который представится Джорджем Чоу.",
+    "confidence": "approximate",
+    "source_note": "Day 5 · ch1-25, поездка до фабрики и встреча"
+  },
+  {
+    "id": "r029",
+    "day": 5,
+    "scene_id": "s035",
+    "character_ids": [
+      "o",
+      "g"
+    ],
+    "from_place_id": "knife_factory",
+    "to_place_id": "jin",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "event": "После встречи на фабрике ножей Джордж Чоу отвозит Оливию в гостиницу у паромного причала в Цзиньчэне. Стилистка помогает Оливии изменить внешность.",
+    "confidence": "approximate",
+    "route_type": "schematic",
+    "source_note": "Day 5 · ch1-25–26, встреча на фабрике и поездка в Цзиньчэн"
+  },
+  {
+    "id": "r124",
+    "scene_id": "s158",
+    "from_place_id": "jin",
+    "to_place_id": "kin_stream",
+    "transport": "Такси",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 5,
+    "character_ids": [
+      "o",
+      "g"
+    ],
+    "event": "Из гостиницы Оливия и Чоу едут к ручью у дороги, где к ним присоединяется Соколов.",
+    "confidence": "approximate",
+    "source_note": "Day 5 · ch1-26, такси к месту встречи"
+  },
+  {
+    "id": "r125",
+    "scene_id": "s159",
+    "from_place_id": "kin_stream",
+    "to_place_id": "jin",
+    "transport": "Такси",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 5,
+    "character_ids": [
+      "s",
+      "o",
+      "g"
+    ],
+    "event": "От ручья такси возвращается в Цзиньчэн, прежде чем повернуть к северу вдоль берега.",
+    "confidence": "approximate",
+    "source_note": "Day 5 · ch1-26, возвращение в город"
+  },
+  {
+    "id": "r030",
+    "day": 5,
+    "scene_id": "s036",
+    "character_ids": [
+      "s",
+      "o",
+      "g"
+    ],
+    "from_place_id": "jin",
+    "to_place_id": "west_kin",
+    "via_place_ids": [],
+    "transport": "Автомобиль и пешком",
+    "event": "Такси забирает Соколова у ручья, возвращается в Цзиньчэн и затем едет на север вдоль берега. Точный пляж не установлен; стрелка показывает общее направление от города.",
+    "confidence": "approximate",
+    "route_type": "direction",
+    "source_note": "Day 5 · ch1-26, встреча у ручья и дорога к западному берегу"
+  },
+  {
+    "id": "r126",
+    "scene_id": "s160",
+    "from_place_id": "west_kin",
+    "to_place_id": "kin_boat",
+    "transport": "Вброд и на лодке",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 5,
+    "character_ids": [
+      "s",
+      "chou_boatman"
+    ],
+    "event": "Соколов выходит к лодке в тумане. Торговое судно, о котором говорили ранее, оставалось частью плана.",
+    "confidence": "approximate",
+    "source_note": "Day 5 · ch1-26–27, лодка у берега"
+  },
+  {
     "id": "r025",
     "day": 5,
     "scene_id": "s031",
@@ -1536,79 +1716,10 @@
     "to_place_id": "peng",
     "via_place_ids": [],
     "transport": "Рыболовное судно",
-    "event": "Намечают курс на Пескадоры. Течение сносит судно южнее ближайшего острова. Топливо заканчивается до высадки.",
+    "event": "Чонгор нацеливается на Пескадорские острова. Течение и ветер сносят судно к югу; группа пытается поправить курс. По навигатору они примерно в десяти километрах южнее ближайшего острова, когда кончается топливо. Высадки нет.",
     "confidence": "approximate",
     "route_type": "direction",
-    "source_note": "Day 5 · ch1-25–26, карта и остановка двигателя"
-  },
-  {
-    "id": "r027",
-    "day": 5,
-    "scene_id": "s033",
-    "character_ids": [
-      "s",
-      "o"
-    ],
-    "from_place_id": "beach",
-    "to_place_id": "ridge",
-    "via_place_ids": [],
-    "transport": "Пешком",
-    "event": "После выхода из воды идут по острову, избегая дорог и жилья. План вылета меняется.",
-    "confidence": "approximate",
-    "route_type": "schematic",
-    "source_note": "Day 5 · ch1-25, обход населённых мест"
-  },
-  {
-    "id": "r028",
-    "day": 5,
-    "scene_id": "s034",
-    "character_ids": [
-      "s",
-      "o"
-    ],
-    "from_place_id": "ridge",
-    "to_place_id": "bus",
-    "via_place_ids": [],
-    "transport": "Автобус и пешком",
-    "event": "Следуют в сторону паромного причала, замечают наблюдение. Поездка на автобусе помогает осмотреть обстановку.",
-    "confidence": "approximate",
-    "route_type": "schematic",
-    "source_note": "Day 5 · ch1-25, дорога к причалу и автобус"
-  },
-  {
-    "id": "r029",
-    "day": 5,
-    "scene_id": "s035",
-    "character_ids": [
-      "o",
-      "g"
-    ],
-    "from_place_id": "bus",
-    "to_place_id": "jin",
-    "via_place_ids": [],
-    "transport": "Автомобиль",
-    "event": "Чоу отвозит Оливию в гостиницу в Цзиньчэне. Там ей меняют внешность.",
-    "confidence": "approximate",
-    "route_type": "schematic",
-    "source_note": "Day 5 · ch1-26, встреча с Джорджем Чоу"
-  },
-  {
-    "id": "r030",
-    "day": 5,
-    "scene_id": "s036",
-    "character_ids": [
-      "s",
-      "o",
-      "g"
-    ],
-    "from_place_id": "jin",
-    "to_place_id": "beach",
-    "via_place_ids": [],
-    "transport": "Автомобиль и пешком",
-    "event": "Чоу организует встречу с лодочником. Соколов передаёт Оливии сведения о Джонсе и идёт к лодке.",
-    "confidence": "approximate",
-    "route_type": "schematic",
-    "source_note": "Day 5 · ch1-26, машина вдоль западного берега"
+    "source_note": "Day 5 · ch1-25–26, курс, снос и остановка двигателя"
   },
   {
     "id": "r031",
@@ -1618,14 +1729,14 @@
       "o",
       "g"
     ],
-    "from_place_id": "beach",
+    "from_place_id": "west_kin",
     "to_place_id": "kair",
     "via_place_ids": [],
     "transport": "Автомобиль",
-    "event": "Чоу и Оливия едут в аэропорт, покупают билеты и проходят досмотр.",
+    "event": "После расставания с Соколовым Оливия возвращается к такси. Чоу и Оливия едут в аэропорт Кинмэня и покупают билеты. Точная дорога с берега неизвестна.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 5 · ch1-27, поездка после расставания с Соколовым"
+    "source_note": "Day 5 · ch1-26–27, возвращение к такси и поездка в аэропорт"
   },
   {
     "id": "r032",
@@ -1639,18 +1750,20 @@
     "to_place_id": "tai",
     "via_place_ids": [],
     "transport": "Самолёт",
-    "event": "Оливия и Чоу летят в Тайбэй. Чоу сообщает, что Соколов не появился на запланированном судне до Лонг-Бич.",
-    "confidence": "inferred",
+    "event": "Оливия и Джордж Чоу прилетают в Тайбэй ближайшим рейсом. В Тайбэе Чоу провожает её к залу вылета. Сингапур и Лондон остаются следующим этапом.",
+    "confidence": "approximate",
     "route_type": "air",
-    "source_note": "Day 5 · ch1-27, ближайший борт"
+    "source_note": "Day 5 · ch1-27, перелёт в Тайбэй и расставание в аэропорту"
   },
   {
     "id": "r033",
-    "day": 6,
-    "scene_id": "s041",
+    "day": 5,
+    "scene_id": "s154",
     "character_ids": [
       "z",
       "j",
+      "pa",
+      "sg",
       "k",
       "er",
       "sh",
@@ -1658,14 +1771,14 @@
       "ma",
       "aw"
     ],
-    "from_place_id": "airport",
+    "from_place_id": "tai_north_air",
     "to_place_id": "mine",
     "via_place_ids": [],
     "transport": "Самолёт",
-    "event": "После перелёта через Тихий океан самолёт садится на короткую полосу у рудника. Провинция определяется по рассказу Зулы, точное место посадки неизвестно.",
+    "event": "После перелёта через Тихий океан самолёт жёстко садится у рудника. Сама посадка описана до заголовка «День 6». Провинцию Зула называет в следующем разделе; точная полоса неизвестна.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 6 · ch1-29, посадка на рассвете"
+    "source_note": "Day 5 · ch1-26–27, перелёт и посадка; ch1-29, уточнение провинции"
   },
   {
     "id": "r034",
