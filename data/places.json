@@ -549,10 +549,13 @@
     "coords": null
   },
   "pilot_hotel": {
-    "name": "Отель у аэропорта Сямэня",
-    "local": "Xiamen / 厦门",
-    "kind": "unknown",
-    "coords": null
+    "name": "«Хайятт» у аэропорта Сямэня",
+    "local": "Условная метка района аэропорта, адрес отеля неизвестен",
+    "kind": "area",
+    "coords": [
+      24.534,
+      118.132
+    ]
   },
   "bc_start": {
     "name": "Британская Колумбия, место выезда неизвестно",
@@ -641,6 +644,75 @@
   "sch_dam": {
     "name": "Дамба на дороге от шлосса",
     "local": "Дамба не установлена",
+    "kind": "unknown",
+    "coords": null
+  },
+  "xiamen_waterfront": {
+    "name": "Прибрежный район центра Сямэня",
+    "local": "Xiamen / 厦门, район паромных причалов",
+    "kind": "area",
+    "coords": [
+      24.46,
+      118.075
+    ]
+  },
+  "kfc_square": {
+    "name": "Площадь у гостиницы со знаком KFC",
+    "local": "Сямэнь, адрес не установлен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "city_hotel": {
+    "name": "Гостиница с консьержкой",
+    "local": "Центр Сямэня, адрес не установлен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "old_quarter": {
+    "name": "Старые кварталы Сямэня",
+    "local": "Границы маршрута неизвестны",
+    "kind": "unknown",
+    "coords": null
+  },
+  "leather_shop": {
+    "name": "Магазин кожгалантереи",
+    "local": "Сямэнь, адрес не установлен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "airport_rental": {
+    "name": "Автопрокат у местного аэропорта",
+    "local": "Аэропорт не идентифицирован",
+    "kind": "unknown",
+    "coords": null
+  },
+  "nodaway_region": {
+    "name": "Район Нодауэя, северо-запад Миссури",
+    "local": "Nodaway County, Missouri, региональный ориентир",
+    "kind": "area",
+    "coords": [
+      40.36,
+      -94.88
+    ]
+  },
+  "seatac": {
+    "name": "Аэропорт Сиэтл-Такома",
+    "local": "Seattle–Tacoma International Airport",
+    "kind": "real",
+    "coords": [
+      47.4502,
+      -122.3088
+    ]
+  },
+  "seattle_hotel": {
+    "name": "Гостиница в районе Сиэтла",
+    "local": "Отель не назван",
+    "kind": "unknown",
+    "coords": null
+  },
+  "seattle_bar": {
+    "name": "Бар у гостиницы в районе Сиэтла",
+    "local": "Заведение не названо",
     "kind": "unknown",
     "coords": null
   }

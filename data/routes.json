@@ -743,10 +743,32 @@
     "to_place_id": "pilot_hotel",
     "via_place_ids": [],
     "transport": "Фургоны и автомобиль",
-    "event": "По дороге из аэропорта обоих пилотов высаживают у отеля. Остальная группа продолжает путь.",
+    "event": "Кортеж останавливается у отеля неподалёку от аэропорта. Павла и Сергея высаживают; остальная группа едет дальше. Отель назван «Хайяттом» в сцене утренней поездки.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 2 · ch1-12, высадка двух пилотов"
+    "source_note": "Day 2 · ch1-12, ночная высадка и поездка в «Хайятт»"
+  },
+  {
+    "id": "r092",
+    "scene_id": "s118",
+    "from_place_id": "pilot_hotel",
+    "to_place_id": "xiamen_waterfront",
+    "via_place_ids": [],
+    "transport": "Фургоны и автомобиль",
+    "route_type": "schematic",
+    "day": 2,
+    "character_ids": [
+      "z",
+      "p",
+      "i",
+      "s",
+      "c",
+      "guards",
+      "xiamen_host"
+    ],
+    "event": "Условная схема ночного перемещения от района аэропорта к прибрежным паромным терминалам возле базы. Точный адрес высотки и дорога между районами неизвестны.",
+    "confidence": "approximate",
+    "source_note": "Day 2 · ch1-12, ночная поездка и вид на пролив с базы"
   },
   {
     "id": "r012",
@@ -758,16 +780,17 @@
       "i",
       "s",
       "c",
-      "guards"
+      "guards",
+      "xiamen_host"
     ],
     "from_place_id": "pilot_hotel",
     "to_place_id": "flat",
     "via_place_ids": [],
-    "transport": "Автомобиль",
-    "event": "После высадки пилотов кортеж следует по прибрежной дороге к офисной высотке. Машины въезжают в подземный паркинг, группа поднимается на 43-й этаж.",
+    "transport": "Фургоны и автомобиль",
+    "event": "Два фургона едут за чёрным «мерседесом» вдоль берега и паромных терминалов. На базе из «мерседеса» выходят Иванов и встречающий. Встречающий открывает лифт, группа поднимается на 43-й этаж.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 2 · ch1-12, кольцевая дорога и прибытие на базу"
+    "source_note": "Day 2 · ch1-12, прибрежная дорога, паркинг и лифт"
   },
   {
     "id": "r013",
@@ -779,45 +802,177 @@
       "s"
     ],
     "from_place_id": "flat",
-    "to_place_id": "xia",
+    "to_place_id": "kfc_square",
     "via_place_ids": [],
-    "transport": "Пешком и такси",
-    "event": "Трое выходят к прибрежной дороге и ищут след вымогателя по игровым данным.",
+    "transport": "Пешком",
+    "event": "Зула, Чонгор и Соколов выходят через подземный паркинг и запасную лестницу к площади у высотки со знаком KFC. Через парадные двери они позднее выходят к такси.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 2 · ch1-12, выход через паркинг"
+    "source_note": "Day 2 · ch1-12, выход с базы и площадь"
+  },
+  {
+    "id": "r093",
+    "scene_id": "s119",
+    "from_place_id": "xiamen_waterfront",
+    "to_place_id": "pilot_hotel",
+    "via_place_ids": [],
+    "transport": "Такси",
+    "route_type": "schematic",
+    "day": 2,
+    "character_ids": [
+      "z",
+      "c",
+      "s"
+    ],
+    "event": "От площади у базы трое едут на такси в «Хайятт» у аэропорта и завтракают. Линия связывает районы площади и гостиницы.",
+    "confidence": "approximate",
+    "source_note": "Day 2 · ch1-12, первое такси и завтрак"
+  },
+  {
+    "id": "r094",
+    "scene_id": "s120",
+    "from_place_id": "pilot_hotel",
+    "to_place_id": "xiamen_waterfront",
+    "via_place_ids": [],
+    "transport": "Такси",
+    "route_type": "schematic",
+    "day": 2,
+    "character_ids": [
+      "z",
+      "c",
+      "s"
+    ],
+    "event": "Из аэропортового района возвращаются к морю в центр Сямэня. После первой гостиницы посещают ещё восемь, затем возвращаются к консьержке. Адреса и порядок этих восьми остановок неизвестны.",
+    "confidence": "approximate",
+    "source_note": "Day 2 · ch1-12, гостиницы и повторный визит"
+  },
+  {
+    "id": "r095",
+    "scene_id": "s122",
+    "from_place_id": "city_hotel",
+    "to_place_id": "leather_shop",
+    "via_place_ids": [
+      "old_quarter"
+    ],
+    "transport": "Такси и пешком",
+    "route_type": "schematic",
+    "day": 2,
+    "character_ids": [
+      "z",
+      "c",
+      "s",
+      "xiamen_driver"
+    ],
+    "event": "Такси едет по старому кварталу и останавливается у лавки. Зула и Соколов выходят, Чонгор остаётся в машине. Следуют ещё несколько остановок у магазинов.",
+    "confidence": "approximate",
+    "source_note": "Day 2 · ch1-12, кожгалантерея и другие покупки"
+  },
+  {
+    "id": "r096",
+    "scene_id": "s123",
+    "from_place_id": "leather_shop",
+    "to_place_id": "flat",
+    "via_place_ids": [
+      "city_hotel",
+      "kfc_square"
+    ],
+    "transport": "Такси и пешком",
+    "route_type": "schematic",
+    "day": 2,
+    "character_ids": [
+      "z",
+      "c",
+      "s"
+    ],
+    "event": "Заезжают обратно в гостиницу к консьержке, затем возвращаются на базу вдоль берега, мимо залов ожидания и закусочных.",
+    "confidence": "approximate",
+    "source_note": "Day 2 · ch1-12, возвращение на базу"
   },
   {
     "id": "r014",
     "day": 2,
     "scene_id": "s016",
     "character_ids": [
-      "r"
+      "r",
+      "pluto"
     ],
     "from_place_id": "sea",
-    "to_place_id": "small",
+    "to_place_id": "nodaway_region",
     "via_place_ids": [],
     "transport": "Самолёт",
-    "event": "Ричард выбирает местный аэропорт ближе к Девину. Омаха здесь упоминается как обычный вариант, которым он в этот раз не пользуется.",
+    "event": "Ричард и Плутон летят на Средний Запад. В тексте назван пролёт над Монтаной. Вместо обычной остановки в Омахе садятся в небольшом аэропорту примерно в получасе езды от «Тропы опоссума». Дуга заканчивается меткой района назначения, название аэродрома неизвестно; место вылета показано на уровне города.",
     "confidence": "approximate",
+    "route_type": "air",
+    "source_note": "Day 2 · ch1-13, полёт с Плутоном и выбор местного аэродрома; ch1-4, район Нодауэя"
+  },
+  {
+    "id": "r097",
+    "scene_id": "s124",
+    "from_place_id": "small",
+    "to_place_id": "airport_rental",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
     "route_type": "schematic",
-    "source_note": "Day 2 · ch1-13, прилёт на Средний Запад"
+    "day": 2,
+    "character_ids": [
+      "r",
+      "pluto",
+      "dale"
+    ],
+    "event": "Дейл забирает Ричарда и Плутона у местного аэродрома и везёт в автопрокат.",
+    "confidence": "approximate",
+    "source_note": "Day 2 · ch1-13, Дейл и дорога в автопрокат"
   },
   {
     "id": "r015",
     "day": 2,
     "scene_id": "s017",
     "character_ids": [
-      "r"
+      "r",
+      "pluto"
     ],
-    "from_place_id": "small",
+    "from_place_id": "airport_rental",
     "to_place_id": "trail",
     "via_place_ids": [],
-    "transport": "Автомобиль",
-    "event": "Из небольшого аэропорта едет в «Тропу опоссума» на встречу с Девином.",
+    "transport": "Прокатная машина",
+    "event": "Из автопроката Ричард с Плутоном едут к Девину. Ричард сворачивает на гравийную дорогу в полумиле от главного входа в тематический парк, затем подъезжает к воротам «Тропы опоссума». Трасса и адреса не установлены.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 2 · ch1-13, от аэродрома к Девину"
+    "source_note": "Day 2 · ch1-13, дорога от аэропорта к Девину"
+  },
+  {
+    "id": "r098",
+    "scene_id": "s126",
+    "from_place_id": "seatac",
+    "to_place_id": "seattle_hotel",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "route_type": "schematic",
+    "day": 2,
+    "character_ids": [
+      "r",
+      "df"
+    ],
+    "event": "Воспоминание. Ричард встречает Дональда Кэмерона в Сиэтл-Такома и везёт его в гостиницу. Её адрес неизвестен.",
+    "confidence": "approximate",
+    "source_note": "Day 2 · ch1-13, воспоминание о приезде Кэмерона"
+  },
+  {
+    "id": "r099",
+    "scene_id": "s128",
+    "from_place_id": "seattle_hotel",
+    "to_place_id": "seattle_bar",
+    "via_place_ids": [],
+    "transport": "Пешком",
+    "route_type": "schematic",
+    "day": 2,
+    "character_ids": [
+      "r",
+      "df"
+    ],
+    "event": "Из гостиницы Ричард и Дональд Кэмерон отправляются перекусить.",
+    "confidence": "approximate",
+    "source_note": "Day 2 · ch1-13, дорога к бару в воспоминании"
   },
   {
     "id": "r016",

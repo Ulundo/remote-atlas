@@ -202,5 +202,25 @@
   "cooks": {
     "name": "Повара из Ванкувера",
     "group": "support"
+  },
+  "xiamen_host": {
+    "name": "Встречающий в Сямэне",
+    "group": "support"
+  },
+  "concierge": {
+    "name": "Консьержка в Сямэне",
+    "group": "support"
+  },
+  "xiamen_driver": {
+    "name": "Таксист в старом квартале",
+    "group": "support"
+  },
+  "dale": {
+    "name": "Дейл",
+    "group": "support"
+  },
+  "wendy": {
+    "name": "Венди",
+    "group": "support"
   }
 }
