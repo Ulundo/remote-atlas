@@ -1072,5 +1072,26 @@
     "local": "Место в Британской Колумбии не установлено",
     "kind": "unknown",
     "coords": null
+  },
+  "van_airport": {
+    "name": "Аэропорт Ванкувера",
+    "local": "Vancouver International Airport",
+    "kind": "real",
+    "coords": [
+      49.195,
+      -123.178
+    ]
+  },
+  "manila_bay_route": {
+    "name": "Переправа по Манильской бухте",
+    "local": "Точный маршрут или место не установлены",
+    "kind": "unknown",
+    "coords": null
+  },
+  "mindanao_raid": {
+    "name": "Место рейда команды Шеймуса",
+    "local": "Точный маршрут или место не установлены",
+    "kind": "unknown",
+    "coords": null
   }
 }

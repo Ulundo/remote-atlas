@@ -1917,12 +1917,13 @@
     "character_ids": [
       "r",
       "jo",
-      "cv",
-      "o"
+      "cv"
     ],
     "from_place_id": "sea",
     "to_place_id": "bf",
-    "via_place_ids": [],
+    "via_place_ids": [
+      "geo"
+    ],
     "transport": "Автомобиль",
     "event": "Ричард, Джон и Корваллис приезжают к запланированному вылету. Оливия встречает их в терминале и говорит, что искать Зулу в Китае уже поздно.",
     "confidence": "approximate",
@@ -2014,8 +2015,7 @@
     "day": 15,
     "scene_id": "s059",
     "character_ids": [
-      "o",
-      "se"
+      "o"
     ],
     "from_place_id": "naia",
     "to_place_id": "mak",
@@ -2102,7 +2102,7 @@
       "o"
     ],
     "from_place_id": "naia",
-    "to_place_id": "van",
+    "to_place_id": "van_airport",
     "via_place_ids": [],
     "transport": "Самолёт",
     "event": "Оливия покупает билет в Ванкувер. В тексте отмечено пересечение линии перемены дат.",
@@ -2117,7 +2117,7 @@
     "character_ids": [
       "o"
     ],
-    "from_place_id": "van",
+    "from_place_id": "van_airport",
     "to_place_id": "sea",
     "via_place_ids": [],
     "transport": "Прокатная машина",
@@ -2137,7 +2137,7 @@
       "er",
       "za"
     ],
-    "from_place_id": "house",
+    "from_place_id": "day10_road",
     "to_place_id": "road",
     "via_place_ids": [],
     "transport": "Автомобиль",
@@ -2807,5 +2807,54 @@
     "event": "Закир садится за руль автофургона и выезжает на шоссе. На ходу Джонс и Шарджиль оборудуют изолированную спальню для Зулы; по дороге останавливаются у обочины. Направление и трасса неизвестны.",
     "confidence": "approximate",
     "source_note": "Day 10 · ch1-34"
+  },
+  {
+    "id": "r148",
+    "scene_id": "s188",
+    "from_place_id": "sea",
+    "to_place_id": "bf",
+    "via_place_ids": [],
+    "transport": "Транспорт не указан",
+    "route_type": "schematic",
+    "day": 15,
+    "character_ids": [
+      "o"
+    ],
+    "event": "После разговора в ФБР и ночёвки Оливия приезжает к частному терминалу Боинг-Филд, чтобы остановить Ричарда перед запланированным вылетом в Китай. Способ её поездки не указан.",
+    "confidence": "approximate",
+    "source_note": "Day 15 · ch1-35–36"
+  },
+  {
+    "id": "r149",
+    "scene_id": "s190",
+    "from_place_id": "mak",
+    "to_place_id": "sang",
+    "via_place_ids": [],
+    "transport": "Пешком и моторное каноэ",
+    "route_type": "schematic",
+    "day": 15,
+    "character_ids": [
+      "o",
+      "se"
+    ],
+    "event": "От неназванной речной пристани они идут на моторном каноэ через бухту к мысу Санглэй. Линия связывает район Макати с базой через неизвестную пристань; геометрия условная.",
+    "confidence": "approximate",
+    "source_note": "Day 15 · ch1-35–36"
+  },
+  {
+    "id": "r150",
+    "scene_id": "s191",
+    "from_place_id": "zam",
+    "to_place_id": "mindanao_raid",
+    "via_place_ids": [],
+    "transport": "Способ перемещения не уточняется",
+    "route_type": "schematic",
+    "day": 15,
+    "character_ids": [
+      "se"
+    ],
+    "event": "Пока Оливия остаётся на базе в Замбоанге, Шеймус уходит с командой на операцию. Они возвращаются утром. Точный пункт рейда и транспорт в этом эпизоде не установлены.",
+    "confidence": "approximate",
+    "source_note": "Day 15 · ch1-35–36"
   }
 ]
