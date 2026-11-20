@@ -222,5 +222,21 @@
   "wendy": {
     "name": "Венди",
     "group": "support"
+  },
+  "douglas_courier": {
+    "name": "Корреспондентка в Дугласе",
+    "group": "support"
+  },
+  "tram_staff": {
+    "name": "Начальник станции и машинист",
+    "group": "support"
+  },
+  "gamekeeper": {
+    "name": "Егерь Дональда Кэмерона",
+    "group": "support"
+  },
+  "herald": {
+    "name": "Герольд Дональда Кэмерона",
+    "group": "support"
   }
 }

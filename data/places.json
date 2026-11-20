@@ -228,8 +228,8 @@
     "coords": null
   },
   "wan": {
-    "name": "Интернет-кафе",
-    "local": "Ванба, Сямэнь",
+    "name": "Первая ванба с вывеской-тауреном",
+    "local": "Интернет-кафе в Сямэне, адрес не установлен",
     "kind": "unknown",
     "coords": null
   },
@@ -713,6 +713,87 @@
   "seattle_bar": {
     "name": "Бар у гостиницы в районе Сиэтла",
     "local": "Заведение не названо",
+    "kind": "unknown",
+    "coords": null
+  },
+  "tea_street": {
+    "name": "Чайная улочка",
+    "local": "Сямэнь, адрес не установлен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "day3_street": {
+    "name": "Улицы, где группа спрашивает дорогу к ванбе",
+    "local": "Сямэнь, район не установлен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "fishing_hats": {
+    "name": "Магазин рыбацких шляп",
+    "local": "Сямэнь, адрес не установлен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "wan_second": {
+    "name": "Вторая ванба",
+    "local": "Интернет-кафе рядом с магазином шляп, адрес не установлен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "fishing_rods": {
+    "name": "Магазин спиннингов",
+    "local": "Сямэнь, адрес не установлен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "rod_cases": {
+    "name": "Магазин чехлов для спиннингов",
+    "local": "Сямэнь, адрес не установлен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "wan_third": {
+    "name": "Третья ванба",
+    "local": "Четвёртый этаж коммерческого здания, Сямэнь",
+    "kind": "unknown",
+    "coords": null
+  },
+  "base_toilet": {
+    "name": "Женская уборная на базе Иванова",
+    "local": "43-й этаж офисной высотки, Сямэнь",
+    "kind": "unknown",
+    "coords": null
+  },
+  "base_landing": {
+    "name": "Нижняя площадка пожарной лестницы",
+    "local": "Офисная высотка, Сямэнь",
+    "kind": "unknown",
+    "coords": null
+  },
+  "man_castle": {
+    "name": "Замок Дональда Кэмерона",
+    "local": "Остров Мэн, место замка не установлено",
+    "kind": "fictional",
+    "coords": null
+  },
+  "douglas": {
+    "name": "Дуглас",
+    "local": "Douglas / Doolish, Isle of Man",
+    "kind": "real",
+    "coords": [
+      54.152,
+      -4.482
+    ]
+  },
+  "douglas_tram": {
+    "name": "Трамвайная станция у северного конца набережной",
+    "local": "Дуглас, станция описана без названия",
+    "kind": "unknown",
+    "coords": null
+  },
+  "mail_pickup": {
+    "name": "Место передачи пакета в глубине острова",
+    "local": "Остров Мэн, место неизвестно",
     "kind": "unknown",
     "coords": null
   }

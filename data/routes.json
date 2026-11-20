@@ -984,14 +984,230 @@
       "s",
       "c"
     ],
-    "from_place_id": "xia",
+    "from_place_id": "day3_street",
     "to_place_id": "wan",
     "via_place_ids": [],
-    "transport": "Городской транспорт и пешком",
-    "event": "Юйся помогает с поиском в интернет-кафе. Точный адрес неизвестен.",
+    "transport": "Пешком",
+    "event": "Юйся узнаёт Зулу после вчерашней встречи и ведёт её, Соколова и Чонгора пешком к первой ванбе. Вход находится в проулке, у лестницы с вывеской-тауреном.",
     "confidence": "approximate",
     "route_type": "schematic",
-    "source_note": "Day 3 · ch1-15, визит в ванбу"
+    "source_note": "Day 3 · ch1-15, встреча на улице и первая ванба"
+  },
+  {
+    "id": "r100",
+    "scene_id": "s130",
+    "from_place_id": "wan",
+    "to_place_id": "fishing_hats",
+    "transport": "Пешком",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "z",
+      "c",
+      "s",
+      "y"
+    ],
+    "event": "От первой ванбы четверо идут около 45 минут до магазина. Соколов покупает рыбацкие шляпы. Адреса и улицы неизвестны.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, путь к магазину шляп"
+  },
+  {
+    "id": "r101",
+    "scene_id": "s131",
+    "from_place_id": "fishing_hats",
+    "to_place_id": "wan_second",
+    "transport": "Пешком",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "z",
+      "c",
+      "s",
+      "y"
+    ],
+    "event": "После магазина шляп все идут в ближайшую ванбу. Зула остаётся перекусить, Чонгор работает за компьютером.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, вторая ванба"
+  },
+  {
+    "id": "r102",
+    "scene_id": "s132",
+    "from_place_id": "wan_second",
+    "to_place_id": "fishing_rods",
+    "transport": "Пешком",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "s",
+      "y"
+    ],
+    "event": "Пока Зула и Чонгор во второй ванбе, Соколов с Юйсей находят магазин спиннингов.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, поиск спиннингов"
+  },
+  {
+    "id": "r103",
+    "scene_id": "s133",
+    "from_place_id": "wan_second",
+    "to_place_id": "wan_third",
+    "transport": "Пешком",
+    "via_place_ids": [
+      "rod_cases"
+    ],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "z",
+      "c",
+      "s",
+      "y"
+    ],
+    "event": "Следующая остановка — магазин чехлов для спиннингов. Затем четверо добираются до третьей ванбы на четвёртом этаже, где Чонгор находит нужное совпадение. Улицы не названы.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, остановка за чехлами и третья ванба"
+  },
+  {
+    "id": "r104",
+    "scene_id": "s134",
+    "from_place_id": "wan_third",
+    "to_place_id": "flat",
+    "transport": "Такси",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "z",
+      "guards"
+    ],
+    "event": "После звонка Соколова к третьей ванбе подъезжает такси с четырьмя консультантами. Они увозят Зулу на парковку высотки, затем отводят её в уборную на базе. Дорога занимает около десяти минут.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, такси к базе"
+  },
+  {
+    "id": "r105",
+    "scene_id": "s135",
+    "from_place_id": "base_toilet",
+    "to_place_id": "base_landing",
+    "transport": "Пешком, внутри здания",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "z"
+    ],
+    "event": "Зула спускается с 43-го этажа по пожарной лестнице. На нижней площадке сталкивается с Соколовым. Это перемещение внутри здания.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, спуск Зулы"
+  },
+  {
+    "id": "r106",
+    "scene_id": "s136",
+    "from_place_id": "base_landing",
+    "to_place_id": "base_toilet",
+    "transport": "Внутри здания",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "z",
+      "s"
+    ],
+    "event": "Соколов останавливает Зулу. Её возвращают в уборную на базе.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, возвращение на базу после попытки побега"
+  },
+  {
+    "id": "r107",
+    "scene_id": "s137",
+    "from_place_id": "nodaway_region",
+    "to_place_id": "man",
+    "transport": "Самолёт",
+    "via_place_ids": [],
+    "route_type": "air",
+    "day": 3,
+    "character_ids": [
+      "r",
+      "pluto"
+    ],
+    "event": "После визита к Девину Ричард и Плутон оказываются у Кэмерона на острове Мэн. Ричард вспоминает перелёт. Дуга связывает районы двух сцен; аэропорты, пересадки и фактический трек не названы.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-9, план Нодауэй — остров Мэн; ch1-13 и ch1-15, предыдущая встреча и приезд к Кэмерону"
+  },
+  {
+    "id": "r108",
+    "scene_id": "s138",
+    "from_place_id": "douglas",
+    "to_place_id": "douglas_tram",
+    "transport": "Пешком",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "douglas_courier",
+      "tram_staff"
+    ],
+    "event": "Обычный порядок доставки писем. Жительница Дугласа идёт из квартиры к трамвайной станции у северного конца набережной и передаёт пакет начальнику станции.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, почта замка"
+  },
+  {
+    "id": "r109",
+    "scene_id": "s139",
+    "from_place_id": "douglas_tram",
+    "to_place_id": "mail_pickup",
+    "transport": "Междугородний трамвай",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "tram_staff"
+    ],
+    "event": "Машинист увозит письмо из Дугласа в глубь острова и оставляет пакет в условленном месте. Станция и точка передачи не установлены.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, трамвай с письмами"
+  },
+  {
+    "id": "r110",
+    "scene_id": "s140",
+    "from_place_id": "mail_pickup",
+    "to_place_id": "man_castle",
+    "transport": "Способ передвижения не указан",
+    "via_place_ids": [],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "gamekeeper",
+      "herald",
+      "df"
+    ],
+    "event": "Егерь забирает пакет и доставляет его в замок. Трубадур перелагал письма на окситанский для Дональда. Ответ отправляется по той же цепочке в обратную сторону.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, доставка в замок и обратная связь"
+  },
+  {
+    "id": "r111",
+    "scene_id": "s141",
+    "from_place_id": "man_castle",
+    "to_place_id": "douglas",
+    "transport": "Трамвай и другие участки",
+    "via_place_ids": [
+      "mail_pickup",
+      "douglas_tram"
+    ],
+    "route_type": "schematic",
+    "day": 3,
+    "character_ids": [
+      "df",
+      "gamekeeper",
+      "tram_staff",
+      "douglas_courier"
+    ],
+    "event": "Обычный порядок доставки ответов из замка. Письмо идёт к жительнице Дугласа в обратном направлении через егеря и трамвай.",
+    "confidence": "approximate",
+    "source_note": "Day 3 · ch1-15, обратная доставка"
   },
   {
     "id": "r017",

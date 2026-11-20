@@ -23,7 +23,20 @@ const precision = { exact: 'Названное место', inferred: 'Опре�
 const placeKind = { real: 'Реальный топоним', fictional: 'Вымышленный топоним', unknown: 'Координаты неизвестны', inferred: 'Идентификация по контексту', area: 'Ориентир региона' };
 const routeKind = { air: 'Дуга большого круга', schematic: 'Схематичный путь', road: 'Восстановлено по дорогам', sea: 'Восстановлено по описанию', walk: 'Восстановлено по описанию', direction: 'Известно направление' };
 const longitude = (lon, near = 110) => lon + Math.round((near - lon) / 360) * 360;
-const mapPoint = ([lat, lon]) => [lat, longitude(lon)];
+function mapCenterLongitude(coordinates) {
+  const sorted = coordinates.map(([, lon]) => (lon + 360) % 360).sort((a, b) => a - b);
+  if (!sorted.length) return 110;
+  let widest = 0;
+  let start = sorted[0];
+  sorted.forEach((lon, index) => {
+    const next = sorted[index + 1] ?? sorted[0] + 360;
+    if (next - lon > widest) {
+      widest = next - lon;
+      start = next;
+    }
+  });
+  return widest > 180 ? longitude(start + (360 - widest) / 2) : 110;
+}
 
 // Spherical interpolation follows the shortest great-circle arc. Keep it
 // continuous across the date line so Leaflet never draws a line around Earth.
@@ -79,6 +92,8 @@ async function start() {
   const state = { day: 'all', character: '', group: 'all', query: '' };
   let visible = [];
   let drawnRoutes = [];
+  let centerLongitude = 110;
+  const mapPoint = ([lat, lon]) => [lat, longitude(lon, centerLongitude)];
   let previousFocus;
 
   el('limit').textContent = `До начала Day ${lastDay + 1}`;
@@ -223,6 +238,8 @@ async function start() {
     if (!layers) return;
     layers.clearLayers();
     drawnRoutes = [];
+    const activePlaces = [...selectedScenes.map(scene => scene.place_id), ...selectedRoutes.flatMap(stops)];
+    centerLongitude = mapCenterLongitude(activePlaces.map(id => places[id].coords).filter(Boolean));
     for (const route of selectedRoutes) {
       const shape = geometry(route);
       if (!shape.length) continue;
