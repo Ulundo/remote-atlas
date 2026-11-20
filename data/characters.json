@@ -274,5 +274,9 @@
   "welder": {
     "name": "Сварщик, арендатор Питера",
     "group": "support"
+  },
+  "aziz": {
+    "name": "Азиз",
+    "group": "support"
   }
 }

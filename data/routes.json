@@ -1849,15 +1849,13 @@
     "day": 10,
     "scene_id": "s048",
     "character_ids": [
-      "r",
-      "df",
-      "dv"
+      "r"
     ],
     "from_place_id": "cam",
-    "to_place_id": "king",
+    "to_place_id": "trail",
     "via_place_ids": [],
     "transport": "Самолёт и наземный транспорт",
-    "event": "После визита к Дональду Кэмерону в Кембридже Ричард вылетает из Англии и встречается с Девином Скрелином. Аэропорты не указаны.",
+    "event": "Ричард возвращается из Англии к Девину на Средний Запад. Точный аэропорт прилёта и наземный путь неизвестны.",
     "confidence": "approximate",
     "route_type": "schematic",
     "source_note": "Day 10 · ch1-34, разговор с Девином"
@@ -1869,7 +1867,7 @@
     "character_ids": [
       "r"
     ],
-    "from_place_id": "king",
+    "from_place_id": "trail",
     "to_place_id": "iowa",
     "via_place_ids": [],
     "transport": "Арендованная машина",
@@ -2715,5 +2713,99 @@
     "event": "После затопления внедорожника Абдул-Вахаб садится в автофургон. Джонс возвращается на шоссе и продолжает движение. Вторая переправа в этом разделе не происходит.",
     "confidence": "approximate",
     "source_note": "Day 9 · ch1-33"
+  },
+  {
+    "id": "r143",
+    "scene_id": "s181",
+    "from_place_id": "cam",
+    "to_place_id": "nodaway_region",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "route_type": "air",
+    "day": 10,
+    "character_ids": [
+      "r"
+    ],
+    "event": "Приблизительная дуга возвращения Ричарда из Англии на Средний Запад. Метки обозначают Кембридж и район Нодауэя; аэропорты и реальный трек не названы.",
+    "confidence": "approximate",
+    "source_note": "Day 10 · ch1-34"
+  },
+  {
+    "id": "r144",
+    "scene_id": "s183",
+    "from_place_id": "day9_ramp",
+    "to_place_id": "day10_walmart",
+    "via_place_ids": [],
+    "transport": "Жилой автофургон",
+    "route_type": "schematic",
+    "day": 10,
+    "character_ids": [
+      "z",
+      "j",
+      "er",
+      "aw",
+      "sk",
+      "ma"
+    ],
+    "event": "От второй паромной пристани автофургон едет ещё около трёх часов к «Уолмарту». Зула видит фонари и магазины, но город определить не может.",
+    "confidence": "approximate",
+    "source_note": "Day 10 · ch1-34"
+  },
+  {
+    "id": "r145",
+    "scene_id": "s184",
+    "from_place_id": "van",
+    "to_place_id": "day10_walmart",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "route_type": "schematic",
+    "day": 10,
+    "character_ids": [
+      "sh",
+      "aziz",
+      "za"
+    ],
+    "event": "Трое прибывают из Ванкувера к автофургону Джонса. Точка назначения и путь неизвестны.",
+    "confidence": "approximate",
+    "source_note": "Day 10 · ch1-34"
+  },
+  {
+    "id": "r146",
+    "scene_id": "s186",
+    "from_place_id": "day10_walmart",
+    "to_place_id": "day10_car",
+    "via_place_ids": [],
+    "transport": "Автомобиль",
+    "route_type": "schematic",
+    "day": 10,
+    "character_ids": [
+      "ma",
+      "sk",
+      "aziz"
+    ],
+    "event": "Махир и Шариф уезжают на машине вместе с Азизом. Их пункт назначения в разделе не назван.",
+    "confidence": "approximate",
+    "source_note": "Day 10 · ch1-34"
+  },
+  {
+    "id": "r147",
+    "scene_id": "s187",
+    "from_place_id": "day10_walmart",
+    "to_place_id": "day10_road",
+    "via_place_ids": [],
+    "transport": "Жилой автофургон",
+    "route_type": "schematic",
+    "day": 10,
+    "character_ids": [
+      "z",
+      "j",
+      "er",
+      "aw",
+      "za",
+      "sh"
+    ],
+    "event": "Закир садится за руль автофургона и выезжает на шоссе. На ходу Джонс и Шарджиль оборудуют изолированную спальню для Зулы; по дороге останавливаются у обочины. Направление и трасса неизвестны.",
+    "confidence": "approximate",
+    "source_note": "Day 10 · ch1-34"
   }
 ]
