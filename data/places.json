@@ -976,5 +976,41 @@
     "local": "Адрес не установлен",
     "kind": "unknown",
     "coords": null
+  },
+  "cranfield": {
+    "name": "Аэропорт Кранфилд",
+    "local": "Cranfield Airport",
+    "kind": "real",
+    "coords": [
+      52.072,
+      -0.617
+    ]
+  },
+  "trinity": {
+    "name": "Тринити-колледж, Кембридж",
+    "local": "Trinity College, Cambridge",
+    "kind": "real",
+    "coords": [
+      52.207,
+      -0.117
+    ]
+  },
+  "computer_shop": {
+    "name": "Компьютерный магазин по пути из Кранфилда",
+    "local": "Адрес неизвестен",
+    "kind": "unknown",
+    "coords": null
+  },
+  "day8_valley": {
+    "name": "Долина ручья у большой реки",
+    "local": "Британская Колумбия, точка неизвестна",
+    "kind": "unknown",
+    "coords": null
+  },
+  "day8_suv": {
+    "name": "Внедорожник между рекой и шоссе",
+    "local": "Место неизвестно",
+    "kind": "unknown",
+    "coords": null
   }
 }

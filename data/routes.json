@@ -2560,5 +2560,80 @@
     "event": "Ричард летит к острову Мэн. Текст показывает самолёт над Британской Колумбией. Дуга связывает район Сиэтла с островом; аэропорты, пересадки и фактический трек неизвестны. В этой секции Ричард ещё читает на борту.",
     "confidence": "approximate",
     "source_note": "Day 7 · ch1-31"
+  },
+  {
+    "id": "r135",
+    "scene_id": "s173",
+    "from_place_id": "day7_pass",
+    "to_place_id": "woods",
+    "via_place_ids": [
+      "day8_valley"
+    ],
+    "transport": "Мини-грузовик на гусеницах",
+    "route_type": "schematic",
+    "day": 8,
+    "character_ids": [
+      "z",
+      "j",
+      "er",
+      "aw",
+      "sk",
+      "ma"
+    ],
+    "event": "После перевала грузовик движется по долине ручья. Дорогу к шоссе группа не завершает и прячет машину в лесу. Координаты и направление по сторонам света неизвестны.",
+    "confidence": "approximate",
+    "source_note": "Day 8 · ch1-32"
+  },
+  {
+    "id": "r136",
+    "scene_id": "s174",
+    "from_place_id": "woods",
+    "to_place_id": "day8_suv",
+    "via_place_ids": [],
+    "transport": "Пешком",
+    "route_type": "schematic",
+    "day": 8,
+    "character_ids": [
+      "z",
+      "aw",
+      "sk"
+    ],
+    "event": "Абдул-Вахаб и Шариф возвращаются к Зуле и ведут её вниз по склону к внедорожнику между рекой и шоссе.",
+    "confidence": "approximate",
+    "source_note": "Day 8 · ch1-32"
+  },
+  {
+    "id": "r137",
+    "scene_id": "s175",
+    "from_place_id": "man",
+    "to_place_id": "cranfield",
+    "via_place_ids": [],
+    "transport": "Самолёт",
+    "route_type": "air",
+    "day": 8,
+    "character_ids": [
+      "r"
+    ],
+    "event": "Ричард прибывает в Кранфилд. Перелёт между островом Мэн и Англией восстанавливается по последовательным сценам; аэропорт вылета и пересадки не указаны.",
+    "confidence": "approximate",
+    "source_note": "Day 8 · ch1-32"
+  },
+  {
+    "id": "r138",
+    "scene_id": "s176",
+    "from_place_id": "cranfield",
+    "to_place_id": "trinity",
+    "via_place_ids": [
+      "computer_shop"
+    ],
+    "transport": "Такси",
+    "route_type": "schematic",
+    "day": 8,
+    "character_ids": [
+      "r"
+    ],
+    "event": "Из Кранфилдского аэропорта Ричард едет на такси, покупает ноутбук в магазине по дороге и приезжает в Тринити-колледж к Кэмерону. Адрес магазина и трасса неизвестны.",
+    "confidence": "approximate",
+    "source_note": "Day 8 · ch1-32"
   }
 ]
