@@ -48,7 +48,14 @@
     "name": "Королевство к’Шетриев",
     "local": "Район владений Девина",
     "kind": "fictional",
-    "coords": null
+    "coords": [
+      40.36,
+      -94.88
+    ],
+    "confidence": "approximate",
+    "position_note": "Пролог и Day 2: район Нодауэя на северо-западе Миссури.",
+    "uncertainty_km": 50,
+    "position_type": "regional_estimate"
   },
   "man": {
     "name": "Остров Мэн",
@@ -63,13 +70,27 @@
     "name": "«Тропа опоссума»",
     "local": "Трейлерный посёлок Девина",
     "kind": "fictional",
-    "coords": null
+    "coords": [
+      40.36,
+      -94.88
+    ],
+    "confidence": "approximate",
+    "position_note": "Пролог и Day 2: район Нодауэя на северо-западе Миссури.",
+    "uncertainty_km": 50,
+    "position_type": "regional_estimate"
   },
   "small": {
     "name": "Местный аэропорт у «Тропы опоссума»",
     "local": "Средний Запад, аэродром не указан",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      40.36,
+      -94.88
+    ],
+    "confidence": "approximate",
+    "position_note": "Пролог и Day 2: район Нодауэя на северо-западе Миссури.",
+    "uncertainty_km": 50,
+    "position_type": "regional_estimate"
   },
   "geo": {
     "name": "Джорджтаун",
@@ -120,13 +141,27 @@
     "name": "Элфинстон",
     "local": "Elphinstone",
     "kind": "fictional",
-    "coords": null
+    "coords": [
+      49.19,
+      -116.65
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 0 · ch1-7: Элфинстон у южного края озера Кутеней, шлосс выше по долине.",
+    "uncertainty_km": 65,
+    "position_type": "regional_estimate"
   },
   "sch": {
     "name": "Шлосс Хундшюттлер",
     "local": "Schloss Hundschüttler",
     "kind": "fictional",
-    "coords": null
+    "coords": [
+      49.19,
+      -116.65
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 0 · ch1-7: Элфинстон у южного края озера Кутеней, шлосс выше по долине.",
+    "uncertainty_km": 65,
+    "position_type": "regional_estimate"
   },
   "kot": {
     "name": "Перевал Кутеней",
@@ -204,7 +239,14 @@
     "name": "«Хайятт» у аэропорта Сямэня",
     "local": "Hyatt, отель в романе",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.534,
+      118.132
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 1–2: район аэропорта Сямэня.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "water": {
     "name": "Набережная Сямэня",
@@ -228,27 +270,55 @@
     "name": "Офисная база группы Иванова",
     "local": "43-й этаж офисной высотки, Сямэнь",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "xia"
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "region_place_id": "xia",
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "wan": {
     "name": "Первая ванба с вывеской-тауреном",
     "local": "Интернет-кафе в Сямэне, адрес не установлен",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "xia"
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "region_place_id": "xia",
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "hide": {
     "name": "Укрытие группы Джонса",
     "local": "Сямэнь",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "cruel": {
     "name": "Жестокий остров",
     "local": "Cruel Island",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.3,
+      118.1
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 4: рыболовецкий остров в досягаемости лодки от Сямэня, официальный топоним неизвестен. Условный центр морского района.",
+    "uncertainty_km": 65,
+    "position_type": "regional_estimate"
   },
   "strait": {
     "name": "Тайваньский пролив",
@@ -290,19 +360,40 @@
     "name": "Прибрежный посёлок на Лусоне",
     "local": "Luzon",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      16.35,
+      120.2
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 17: побережье Лусона, двухчасовой путь к югу; город не назван.",
+    "uncertainty_km": 160,
+    "position_type": "regional_estimate"
   },
   "hotel": {
     "name": "Гостиничный квартал на Лусоне",
     "local": "Luzon",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      16.35,
+      120.2
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 17: побережье Лусона, двухчасовой путь к югу; город не назван.",
+    "uncertainty_km": 160,
+    "position_type": "regional_estimate"
   },
   "net": {
     "name": "Интернет-кафе на Лусоне",
     "local": "Luzon",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      16.35,
+      120.2
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 17: побережье Лусона, двухчасовой путь к югу; город не назван.",
+    "uncertainty_km": 160,
+    "position_type": "regional_estimate"
   },
   "kin": {
     "name": "Кинмэнь",
@@ -317,19 +408,40 @@
     "name": "Берег Кинмэня",
     "local": "Kinmen / 金門",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.444,
+      118.376
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 5: остров Кинмэнь, пеший путь в районе аэропорта и автобус до фабрики ножей.",
+    "uncertainty_km": 15,
+    "position_type": "regional_estimate"
   },
   "ridge": {
     "name": "Хребет на Кинмэне",
     "local": "Kinmen / 金門",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.444,
+      118.376
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 5: остров Кинмэнь, пеший путь в районе аэропорта и автобус до фабрики ножей.",
+    "uncertainty_km": 15,
+    "position_type": "regional_estimate"
   },
   "bus": {
     "name": "Остановки на Кинмэне",
     "local": "Kinmen / 金門",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.444,
+      118.376
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 5: остров Кинмэнь, пеший путь в районе аэропорта и автобус до фабрики ножей.",
+    "uncertainty_km": 15,
+    "position_type": "regional_estimate"
   },
   "jin": {
     "name": "Цзиньчэн",
@@ -416,7 +528,14 @@
     "name": "Пристань западнее Макати",
     "local": "Manila Bay",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      14.55,
+      120.99
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 15: западнее Макати по речке выходят в Манильскую бухту.",
+    "uncertainty_km": 10,
+    "position_type": "regional_estimate"
   },
   "sang": {
     "name": "Мыс Санглэй",
@@ -458,57 +577,120 @@
     "name": "Заброшенный рудник",
     "local": "Британская Колумбия, место неизвестно",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "bc_start"
+    "coords": [
+      55,
+      -125
+    ],
+    "region_place_id": "bc_start",
+    "confidence": "approximate",
+    "position_note": "Day 5–7: снежная горная долина с рудником в Британской Колумбии. Последние два часа полёта Зула не следила за картой.",
+    "uncertainty_km": 450,
+    "position_type": "regional_estimate"
   },
   "woods": {
     "name": "Лесная стоянка",
     "local": "Место неизвестно",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "bc_start"
+    "coords": [
+      54.7,
+      -124.8
+    ],
+    "region_place_id": "bc_start",
+    "confidence": "approximate",
+    "position_note": "Day 8: по ручью к большой реке и шоссе. Условная позиция относительно предыдущей долины.",
+    "uncertainty_km": 450,
+    "position_type": "regional_estimate"
   },
   "ferry": {
     "name": "Неназванная паромная переправа",
     "local": "Место неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51.8,
+      -122
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 9: долгая поездка, три заправки и короткий паром через озеро Британской Колумбии. Направление неизвестно; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "house": {
     "name": "Укрытие после переправы",
     "local": "Место неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51.8,
+      -122
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 9: долгая поездка, три заправки и короткий паром через озеро Британской Колумбии. Направление неизвестно; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "road": {
     "name": "Горная дорога",
     "local": "Место неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51,
+      -120.5
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 10–15: дороги и парковки в Британской Колумбии. Город не назван; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "camp": {
     "name": "Стоянка у старых построек",
     "local": "Место неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      49.3,
+      -116.65
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 18: несколько миль за шлоссом, у старых выработок. Условная область около южной части озера Кутеней.",
+    "uncertainty_km": 100,
+    "position_type": "regional_estimate"
   },
   "burn": {
     "name": "Бурнс-Форд, Айдахо",
     "local": "Burns Ford",
     "kind": "fictional",
-    "coords": null
+    "coords": [
+      48.7,
+      -116.4
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 15: вымышленный Бурнс-Форд и участок Фортрастов в северном Айдахо.",
+    "uncertainty_km": 80,
+    "position_type": "regional_estimate"
   },
   "cabin": {
     "name": "Участок Фортрастов",
     "local": "Северный Айдахо",
     "kind": "fictional",
-    "coords": null
+    "coords": [
+      48.7,
+      -116.4
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 15: вымышленный Бурнс-Форд и участок Фортрастов в северном Айдахо.",
+    "uncertainty_km": 80,
+    "position_type": "regional_estimate"
   },
   "ship": {
     "name": "Судно у Сиэтла",
     "local": "Puget Sound",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      47.69,
+      -122.42
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 18: судно у побережья Сиэтла перед выходом в Голден-Гарденс.",
+    "uncertainty_km": 15,
+    "position_type": "regional_estimate"
   },
   "moscow": {
     "name": "Москва",
@@ -541,19 +723,40 @@
     "name": "Штаб-квартира Корпорации-9592",
     "local": "Corporation 9592 / Сиэтл",
     "kind": "fictional",
-    "coords": null
+    "coords": [
+      47.606,
+      -122.332
+    ],
+    "confidence": "approximate",
+    "position_note": "Сиэтл, точный адрес в использованных эпизодах не определён.",
+    "uncertainty_km": 25,
+    "position_type": "regional_estimate"
   },
   "starbucks_hq": {
     "name": "Штаб-квартира Starbucks",
     "local": "Starbucks Center / Сиэтл",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      47.606,
+      -122.332
+    ],
+    "confidence": "approximate",
+    "position_note": "Сиэтл, точный адрес в использованных эпизодах не определён.",
+    "uncertainty_km": 25,
+    "position_type": "regional_estimate"
   },
   "xia_highway": {
     "name": "Шоссе у аэропорта Сямэня",
     "local": "Xiamen / 厦门",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.534,
+      118.132
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 1–2: район аэропорта Сямэня.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "pilot_hotel": {
     "name": "«Хайятт» у аэропорта Сямэня",
@@ -568,7 +771,14 @@
     "name": "Британская Колумбия, место выезда неизвестно",
     "local": "British Columbia",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      50,
+      -120
+    ],
+    "confidence": "approximate",
+    "position_note": "Британская Колумбия, место выезда не названо.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "farm": {
     "name": "Ферма Фортрастов",
@@ -592,7 +802,14 @@
     "name": "«Уолмарт» в западной Айове",
     "local": "Walmart, магазин не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      42.7,
+      -95.5
+    ],
+    "confidence": "approximate",
+    "position_note": "Пролог: западная Айова, поездка с семейной фермы.",
+    "uncertainty_km": 160,
+    "position_type": "regional_estimate"
   },
   "hyvee": {
     "name": "Кафетерий «Хай-Ви» у Ред-Оука",
@@ -607,7 +824,14 @@
     "name": "Лагерь беженцев в Судане",
     "local": "Лагерь не назван",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      15.5,
+      34
+    ],
+    "confidence": "approximate",
+    "position_note": "Пролог: лагерь беженцев в Судане, точное место не названо.",
+    "uncertainty_km": 800,
+    "position_type": "regional_estimate"
   },
   "la": {
     "name": "Лос-Анджелес",
@@ -622,13 +846,27 @@
     "name": "Родительский дом Плутона на Аляске",
     "local": "Alaska, населённый пункт неизвестен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      64,
+      -150
+    ],
+    "confidence": "approximate",
+    "position_note": "Пролог: родительский дом Плутона на Аляске.",
+    "uncertainty_km": 900,
+    "position_type": "regional_estimate"
   },
   "selk": {
     "name": "Хребет Селькирк",
     "local": "Selkirk Mountains, место перехода неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      49,
+      -117
+    ],
+    "confidence": "approximate",
+    "position_note": "Пролог: хребет Селькирк, переход через границу.",
+    "uncertainty_km": 160,
+    "position_type": "regional_estimate"
   },
   "everett": {
     "name": "Район Эверетта",
@@ -652,7 +890,14 @@
     "name": "Дамба на дороге от шлосса",
     "local": "Дамба не установлена",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      49.19,
+      -116.65
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 0 · ch1-7: Элфинстон у южного края озера Кутеней, шлосс выше по долине.",
+    "uncertainty_km": 65,
+    "position_type": "regional_estimate"
   },
   "xiamen_waterfront": {
     "name": "Прибрежный район центра Сямэня",
@@ -667,32 +912,67 @@
     "name": "Площадь у гостиницы со знаком KFC",
     "local": "Сямэнь, адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "city_hotel": {
     "name": "Гостиница с консьержкой",
     "local": "Центр Сямэня, адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "old_quarter": {
     "name": "Старые кварталы Сямэня",
     "local": "Границы маршрута неизвестны",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "xia"
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "region_place_id": "xia",
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "leather_shop": {
     "name": "Магазин кожгалантереи",
     "local": "Сямэнь, адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "airport_rental": {
     "name": "Автопрокат у местного аэропорта",
     "local": "Аэропорт не идентифицирован",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      40.36,
+      -94.88
+    ],
+    "confidence": "approximate",
+    "position_note": "Пролог и Day 2: район Нодауэя на северо-западе Миссури.",
+    "uncertainty_km": 50,
+    "position_type": "regional_estimate"
   },
   "nodaway_region": {
     "name": "Район Нодауэя, северо-запад Миссури",
@@ -716,76 +996,160 @@
     "name": "Гостиница в районе Сиэтла",
     "local": "Отель не назван",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      47.606,
+      -122.332
+    ],
+    "confidence": "approximate",
+    "position_note": "Сиэтл, точный адрес в использованных эпизодах не определён.",
+    "uncertainty_km": 25,
+    "position_type": "regional_estimate"
   },
   "seattle_bar": {
     "name": "Бар у гостиницы в районе Сиэтла",
     "local": "Заведение не названо",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      47.606,
+      -122.332
+    ],
+    "confidence": "approximate",
+    "position_note": "Сиэтл, точный адрес в использованных эпизодах не определён.",
+    "uncertainty_km": 25,
+    "position_type": "regional_estimate"
   },
   "tea_street": {
     "name": "Чайная улочка",
     "local": "Сямэнь, адрес не установлен",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "xia"
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "region_place_id": "xia",
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "day3_street": {
     "name": "Улицы, где группа спрашивает дорогу к ванбе",
     "local": "Сямэнь, район не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "fishing_hats": {
     "name": "Магазин рыбацких шляп",
     "local": "Сямэнь, адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "wan_second": {
     "name": "Вторая ванба",
     "local": "Интернет-кафе рядом с магазином шляп, адрес не установлен",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "xia"
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "region_place_id": "xia",
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "fishing_rods": {
     "name": "Магазин спиннингов",
     "local": "Сямэнь, адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "rod_cases": {
     "name": "Магазин чехлов для спиннингов",
     "local": "Сямэнь, адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "wan_third": {
     "name": "Третья ванба",
     "local": "Четвёртый этаж коммерческого здания, Сямэнь",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "xia"
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "region_place_id": "xia",
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "base_toilet": {
     "name": "Женская уборная на базе Иванова",
     "local": "43-й этаж офисной высотки, Сямэнь",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "base_landing": {
     "name": "Нижняя площадка пожарной лестницы",
     "local": "Офисная высотка, Сямэнь",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "man_castle": {
     "name": "Замок Дональда Кэмерона",
     "local": "Остров Мэн, место замка не установлено",
     "kind": "fictional",
-    "coords": null
+    "coords": [
+      54.23,
+      -4.54
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 3: остров Мэн; положение замка и точки передачи почты не указано.",
+    "uncertainty_km": 50,
+    "position_type": "regional_estimate"
   },
   "douglas": {
     "name": "Дуглас",
@@ -800,50 +1164,106 @@
     "name": "Трамвайная станция у северного конца набережной",
     "local": "Дуглас, станция описана без названия",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      54.169,
+      -4.478
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 3: северный конец набережной Дугласа.",
+    "uncertainty_km": 3,
+    "position_type": "regional_estimate"
   },
   "mail_pickup": {
     "name": "Место передачи пакета в глубине острова",
     "local": "Остров Мэн, место неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      54.23,
+      -4.54
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 3: остров Мэн; положение замка и точки передачи почты не указано.",
+    "uncertainty_km": 50,
+    "position_type": "regional_estimate"
   },
   "day4_house": {
     "name": "Дом, где сталкиваются группы",
     "local": "Старый квартал Сямэня, адрес не установлен",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "xia"
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "region_place_id": "xia",
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "olivia_office": {
     "name": "Офис прикрытия Оливии",
     "local": "Напротив дома в старом квартале, Сямэнь",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.46,
+      118.075
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 2–4: старые кварталы и прибрежная часть Сямэня; адреса не названы.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "olivia_hospital": {
     "name": "Больница в Сямэне",
     "local": "Название и адрес не установлены",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.48,
+      118.09
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 4: больница в Сямэне, название неизвестно.",
+    "uncertainty_km": 15,
+    "position_type": "regional_estimate"
   },
   "day4_ring": {
     "name": "Кольцевая дорога Сямэня",
     "local": "Место съезда неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.49,
+      118.13
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 4: кольцевая дорога Сямэня, развязка у нового моста и причал у залива.",
+    "uncertainty_km": 25,
+    "position_type": "regional_estimate"
   },
   "day4_dock": {
     "name": "Пристань у строящегося объекта",
     "local": "Залив у Сямэня, точка не установлена",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.49,
+      118.13
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 4: кольцевая дорога Сямэня, развязка у нового моста и причал у залива.",
+    "uncertainty_km": 25,
+    "position_type": "regional_estimate"
   },
   "new_bridge": {
     "name": "Новый мост с кольцевой дороги",
     "local": "Название моста не подтверждено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.49,
+      118.13
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 4: кольцевая дорога Сямэня, развязка у нового моста и причал у залива.",
+    "uncertainty_km": 25,
+    "position_type": "regional_estimate"
   },
   "north_xiamen_water": {
     "name": "Воды у северной оконечности Сямэня",
@@ -867,25 +1287,53 @@
     "name": "Обход Сямэня со стороны моря",
     "local": "Точный трек лодки неизвестен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.5,
+      118.0
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 4: морской обход Сямэня от Гуланъюя к северной оконечности.",
+    "uncertainty_km": 30,
+    "position_type": "regional_estimate"
   },
   "kin_road": {
     "name": "Перекрёсток на Кинмэне",
     "local": "Подход к автобусной остановке, место не названо",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.444,
+      118.376
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 5: остров Кинмэнь, пеший путь в районе аэропорта и автобус до фабрики ножей.",
+    "uncertainty_km": 15,
+    "position_type": "regional_estimate"
   },
   "knife_factory": {
     "name": "Фабрика ножей на Кинмэне",
     "local": "Название и адрес не установлены",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.444,
+      118.376
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 5: остров Кинмэнь, пеший путь в районе аэропорта и автобус до фабрики ножей.",
+    "uncertainty_km": 15,
+    "position_type": "regional_estimate"
   },
   "kin_stream": {
     "name": "Ручей у дороги на Кинмэне",
     "local": "Место встречи с Соколовым не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.444,
+      118.376
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 5: остров Кинмэнь, пеший путь в районе аэропорта и автобус до фабрики ножей.",
+    "uncertainty_km": 15,
+    "position_type": "regional_estimate"
   },
   "west_kin": {
     "name": "Западный берег Кинмэня",
@@ -900,7 +1348,14 @@
     "name": "Лодка у западного берега Кинмэня",
     "local": "Положение лодки неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      24.465,
+      118.302
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 5: от Цзиньчэна едут севернее вдоль западного берега.",
+    "uncertainty_km": 8,
+    "position_type": "regional_estimate"
   },
   "tai_south_air": {
     "name": "К югу от Тайваня",
@@ -924,7 +1379,14 @@
     "name": "Квартира Зулы в Сиэтле",
     "local": "Адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      47.606,
+      -122.332
+    ],
+    "confidence": "approximate",
+    "position_note": "Сиэтл, точный адрес в использованных эпизодах не определён.",
+    "uncertainty_km": 25,
+    "position_type": "regional_estimate"
   },
   "sydney": {
     "name": "Сидней",
@@ -948,44 +1410,93 @@
     "name": "Самолёт у рудника",
     "local": "Британская Колумбия, точка неизвестна",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      55,
+      -125
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 5–7: снежная горная долина с рудником в Британской Колумбии. Последние два часа полёта Зула не следила за картой.",
+    "uncertainty_km": 450,
+    "position_type": "regional_estimate"
   },
   "mine_forest": {
     "name": "Лес рядом с рудником",
     "local": "Британская Колумбия, точка не установлена",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      55,
+      -125
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 5–7: снежная горная долина с рудником в Британской Колумбии. Последние два часа полёта Зула не следила за картой.",
+    "uncertainty_km": 450,
+    "position_type": "regional_estimate"
   },
   "mine_trailer": {
     "name": "Вагончик «Эйрстрим» у рудника",
     "local": "Британская Колумбия, точка не установлена",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      55,
+      -125
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 5–7: снежная горная долина с рудником в Британской Колумбии. Последние два часа полёта Зула не следила за картой.",
+    "uncertainty_km": 450,
+    "position_type": "regional_estimate"
   },
   "valley_river": {
     "name": "Горная речка выше рудника",
     "local": "Британская Колумбия, точка не установлена",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      54.9,
+      -125
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 7: вверх по долине от рудника, через речку и лес к перевалу. Смещение центра условное.",
+    "uncertainty_km": 450,
+    "position_type": "regional_estimate"
   },
   "radio_clearing": {
     "name": "Лесная поляна для проверки рации",
     "local": "Британская Колумбия, точка не установлена",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      54.9,
+      -125
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 7: вверх по долине от рудника, через речку и лес к перевалу. Смещение центра условное.",
+    "uncertainty_km": 450,
+    "position_type": "regional_estimate"
   },
   "day7_pass": {
     "name": "Перевал над долиной рудника",
     "local": "Британская Колумбия, точка не установлена",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "bc_start"
+    "coords": [
+      54.9,
+      -125
+    ],
+    "region_place_id": "bc_start",
+    "confidence": "approximate",
+    "position_note": "Day 7: вверх по долине от рудника, через речку и лес к перевалу. Смещение центра условное.",
+    "uncertainty_km": 450,
+    "position_type": "regional_estimate"
   },
   "richard_home": {
     "name": "Квартира Ричарда в Сиэтле",
     "local": "Адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      47.606,
+      -122.332
+    ],
+    "confidence": "approximate",
+    "position_note": "Сиэтл, точный адрес в использованных эпизодах не определён.",
+    "uncertainty_km": 25,
+    "position_type": "regional_estimate"
   },
   "cranfield": {
     "name": "Аэропорт Кранфилд",
@@ -1009,80 +1520,171 @@
     "name": "Компьютерный магазин по пути из Кранфилда",
     "local": "Адрес неизвестен",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      52.14,
+      -0.35
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 8: остановка на пути из Кранфилда в Кембридж.",
+    "uncertainty_km": 40,
+    "position_type": "regional_estimate"
   },
   "day8_valley": {
     "name": "Долина ручья у большой реки",
     "local": "Британская Колумбия, точка неизвестна",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      54.7,
+      -124.8
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 8: по ручью к большой реке и шоссе. Условная позиция относительно предыдущей долины.",
+    "uncertainty_km": 450,
+    "position_type": "regional_estimate"
   },
   "day8_suv": {
     "name": "Внедорожник между рекой и шоссе",
     "local": "Место неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      54.7,
+      -124.8
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 8: по ручью к большой реке и шоссе. Условная позиция относительно предыдущей долины.",
+    "uncertainty_km": 450,
+    "position_type": "regional_estimate"
   },
   "fuel1": {
     "name": "Первая заправка",
     "local": "Британская Колумбия, место не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51.8,
+      -122
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 9: долгая поездка, три заправки и короткий паром через озеро Британской Колумбии. Направление неизвестно; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "fuel2": {
     "name": "Вторая заправка",
     "local": "Британская Колумбия, место не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51.8,
+      -122
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 9: долгая поездка, три заправки и короткий паром через озеро Британской Колумбии. Направление неизвестно; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "fuel3": {
     "name": "Третья заправка",
     "local": "Британская Колумбия, место не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51.8,
+      -122
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 9: долгая поездка, три заправки и короткий паром через озеро Британской Колумбии. Направление неизвестно; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "wifi_stop": {
     "name": "Площадка с доступом к Интернету",
     "local": "Британская Колумбия, место не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51.8,
+      -122
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 9: долгая поездка, три заправки и короткий паром через озеро Британской Колумбии. Направление неизвестно; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "day9_rv": {
     "name": "Площадка у реки, где захвачен автофургон",
     "local": "Британская Колумбия, место не установлено",
     "kind": "unknown",
-    "coords": null,
-    "region_place_id": "bc_start"
+    "coords": [
+      51.8,
+      -122
+    ],
+    "region_place_id": "bc_start",
+    "confidence": "approximate",
+    "position_note": "Day 9: долгая поездка, три заправки и короткий паром через озеро Британской Колумбии. Направление неизвестно; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "day9_ramp": {
     "name": "Вторая паромная пристань и спуск к озеру",
     "local": "Британская Колумбия, место не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51.8,
+      -122
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 9: долгая поездка, три заправки и короткий паром через озеро Британской Колумбии. Направление неизвестно; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "day9_highway": {
     "name": "Шоссе после второй пристани",
     "local": "Британская Колумбия, место не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51.8,
+      -122
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 9: долгая поездка, три заправки и короткий паром через озеро Британской Колумбии. Направление неизвестно; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "day10_walmart": {
     "name": "Парковка «Уолмарта»",
     "local": "Место в Британской Колумбии не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51,
+      -120.5
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 10–15: дороги и парковки в Британской Колумбии. Город не назван; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "day10_car": {
     "name": "Автомобиль Азиза после разделения группы",
     "local": "Место в Британской Колумбии не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51,
+      -120.5
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 10–15: дороги и парковки в Британской Колумбии. Город не назван; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "day10_road": {
     "name": "Шоссе после «Уолмарта»",
     "local": "Место в Британской Колумбии не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      51,
+      -120.5
+    ],
+    "confidence": "approximate",
+    "position_note": "Days 10–15: дороги и парковки в Британской Колумбии. Город не назван; центр области условный.",
+    "uncertainty_km": 600,
+    "position_type": "regional_estimate"
   },
   "van_airport": {
     "name": "Аэропорт Ванкувера",
@@ -1097,13 +1699,27 @@
     "name": "Переправа по Манильской бухте",
     "local": "Точный маршрут или место не установлены",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      14.55,
+      120.99
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 15: западнее Макати по речке выходят в Манильскую бухту.",
+    "uncertainty_km": 10,
+    "position_type": "regional_estimate"
   },
   "mindanao_raid": {
     "name": "Место рейда команды Шеймуса",
     "local": "Точный маршрут или место не установлены",
     "kind": "unknown",
-    "coords": null
+    "coords": [
+      7.2,
+      122.5
+    ],
+    "confidence": "approximate",
+    "position_note": "Day 15: операция команды Шеймуса из Замбоанги, точное место неизвестно.",
+    "uncertainty_km": 250,
+    "position_type": "regional_estimate"
   },
   "luz_south_direction": {
     "name": "К югу вдоль побережья Лусона",

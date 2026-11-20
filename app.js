@@ -89,7 +89,17 @@ async function start() {
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
   }
-  const state = { day: 'all', character: '', group: 'all', query: '' };
+  const state = { day: 'all', character: '', group: 'all', query: '', background: false };
+  const backgroundToggle = button('Воспоминания', () => {
+    state.background = !state.background;
+    selectedScene = '';
+    closeDetails();
+    backgroundToggle.setAttribute('aria-pressed', String(state.background));
+    render();
+    fit();
+  }, false);
+  el('days').before(backgroundToggle);
+  backgroundToggle.id = 'background-toggle';
   let visible = [];
   let drawnRoutes = [];
   let centerLongitude = 110;
@@ -154,6 +164,9 @@ async function start() {
       : [place.local, placeKind[place.kind], precision[item.confidence]];
     article.append(heading, node('div', [dayName(item.day), ...flags].filter(Boolean).join(' · '), 'meta'),
       node('p', item.event), node('p', participants(item), 'meta'));
+    if (item.timeline === 'background') article.append(node('p', 'Воспоминание / предыстория', 'meta'));
+    if (place?.position_note) article.append(node('p', `Условная метка · ${place.position_note}`, 'meta'));
+    if (item.position_note) article.append(node('p', item.position_note, 'meta'));
     if (place?.region_place_id) {
       article.append(node('p', `Район события — ${places[place.region_place_id].name}. Положение внутри района неизвестно.`, 'meta'));
     }
@@ -189,7 +202,8 @@ async function start() {
     }
     if (!item.scene_id && (state.character || item.character_ids.length === 1)) {
       const followsCharacter = other => other.character_ids.some(id =>
-        state.character ? id === state.character : item.character_ids.includes(id));
+        state.character ? id === state.character : item.character_ids.includes(id)) &&
+        (state.background || other.timeline !== 'background');
       const index = scenes.indexOf(item);
       const before = scenes.slice(0, index).findLast(followsCharacter);
       const after = scenes.slice(index + 1).find(followsCharacter);
@@ -223,6 +237,7 @@ async function start() {
     return segments;
   }
   function matches(item) {
+    if (!state.background && item.timeline === 'background') return false;
     if (state.day !== 'all' && item.day !== state.day) return false;
     if (state.character && !item.character_ids.includes(state.character)) return false;
     const keys = item.scene_id ? stops(item) : [item.place_id];
@@ -312,7 +327,7 @@ async function start() {
       if (!shape.length) continue;
       const dimmed = Boolean(selectedScene && selectedScene !== route.scene_id);
       drawnRoutes.push({ shape, air: route.route_type === 'air', arrivalHeading: route.arrival_heading, dimmed });
-      const dashed = ['schematic', 'direction'].includes(route.route_type);
+      const dashed = ['schematic', 'direction'].includes(route.route_type) || Boolean(route.position_note);
       const line = L.polyline(shape, {
         weight: selectedScene === route.scene_id ? 8 : 5, opacity: dimmed ? .16 : .95, color: route.route_type === 'air' ? '#72c2ce' : '#f0cb86',
         dashArray: dashed ? '6 8' : undefined, bubblingMouseEvents: false,
@@ -342,11 +357,12 @@ async function start() {
       }
       const icon = L.divIcon({
         html: '',
-        className: place.kind === 'real' ? 'pin' : 'pin approx', iconSize: [22, 22],
+        className: place.kind === 'real' && !place.position_note ? 'pin' : 'pin approx', iconSize: [22, 22],
       });
       const marker = L.marker(mapPoint(place.coords), {
         title: place.name, alt: place.name, icon, bubblingMouseEvents: false,
       }).addTo(layers);
+      if (place.position_note) marker.bindTooltip(`Условный район · ${place.name}`);
       const activeRoute = routes.find(route => route.scene_id === selectedScene);
       if (activeRoute && [activeRoute.from_place_id, activeRoute.to_place_id].includes(id)) {
         marker.bindTooltip(id === activeRoute.from_place_id ? 'Начало' : 'Конец', { permanent: true, direction: 'top' });

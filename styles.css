@@ -32,6 +32,7 @@ button[aria-pressed="true"], button[aria-expanded="true"], button.selected { bac
 #days { display: flex; align-items: center; gap: .35rem; overflow-x: auto; padding: .5rem .15rem .3rem; }
 #days button { flex: none; min-width: 44px; white-space: nowrap; }
 #days .gap { flex: none; color: var(--muted); font-size: .72rem; padding: .25rem; white-space: nowrap; }
+#background-toggle { min-height: 32px; margin-top: .35rem; font-size: .75rem; }
 .map-stage, #map { position: relative; min-height: 0; }
 #map { height: 100%; background: #26353c; }
 #map .leaflet-tile-pane { filter: brightness(.76) saturate(.56); }
