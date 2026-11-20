@@ -238,5 +238,17 @@
   "herald": {
     "name": "Герольд Дональда Кэмерона",
     "group": "support"
+  },
+  "kautsky": {
+    "name": "Каутский",
+    "group": "support"
+  },
+  "builders": {
+    "name": "Строители, помогшие Оливии",
+    "group": "support"
+  },
+  "boatman_day4": {
+    "name": "Лодочник на Гуланъюе",
+    "group": "support"
   }
 }
