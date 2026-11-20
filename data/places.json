@@ -228,13 +228,15 @@
     "name": "Офисная база группы Иванова",
     "local": "43-й этаж офисной высотки, Сямэнь",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "xia"
   },
   "wan": {
     "name": "Первая ванба с вывеской-тауреном",
     "local": "Интернет-кафе в Сямэне, адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "xia"
   },
   "hide": {
     "name": "Укрытие группы Джонса",
@@ -456,13 +458,15 @@
     "name": "Заброшенный рудник",
     "local": "Британская Колумбия, место неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "bc_start"
   },
   "woods": {
     "name": "Лесная стоянка",
     "local": "Место неизвестно",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "bc_start"
   },
   "ferry": {
     "name": "Неназванная паромная переправа",
@@ -675,7 +679,8 @@
     "name": "Старые кварталы Сямэня",
     "local": "Границы маршрута неизвестны",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "xia"
   },
   "leather_shop": {
     "name": "Магазин кожгалантереи",
@@ -723,7 +728,8 @@
     "name": "Чайная улочка",
     "local": "Сямэнь, адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "xia"
   },
   "day3_street": {
     "name": "Улицы, где группа спрашивает дорогу к ванбе",
@@ -741,7 +747,8 @@
     "name": "Вторая ванба",
     "local": "Интернет-кафе рядом с магазином шляп, адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "xia"
   },
   "fishing_rods": {
     "name": "Магазин спиннингов",
@@ -759,7 +766,8 @@
     "name": "Третья ванба",
     "local": "Четвёртый этаж коммерческого здания, Сямэнь",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "xia"
   },
   "base_toilet": {
     "name": "Женская уборная на базе Иванова",
@@ -804,7 +812,8 @@
     "name": "Дом, где сталкиваются группы",
     "local": "Старый квартал Сямэня, адрес не установлен",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "xia"
   },
   "olivia_office": {
     "name": "Офис прикрытия Оливии",
@@ -969,7 +978,8 @@
     "name": "Перевал над долиной рудника",
     "local": "Британская Колумбия, точка не установлена",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "bc_start"
   },
   "richard_home": {
     "name": "Квартира Ричарда в Сиэтле",
@@ -1041,7 +1051,8 @@
     "name": "Площадка у реки, где захвачен автофургон",
     "local": "Британская Колумбия, место не установлено",
     "kind": "unknown",
-    "coords": null
+    "coords": null,
+    "region_place_id": "bc_start"
   },
   "day9_ramp": {
     "name": "Вторая паромная пристань и спуск к озеру",

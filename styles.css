@@ -49,7 +49,8 @@ aside { top: .5rem; max-height: calc(100% - 1rem); }
 .groups { display: flex; gap: .35rem; flex-wrap: wrap; margin-bottom: .55rem; }
 #character-list { display: grid; gap: .35rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 #character-list button { text-align: left; }
-#detail { bottom: .5rem; max-height: calc(100% - 1rem); }
+#detail { bottom: .5rem; max-height: 44%; }
+#detail, #results, aside { overscroll-behavior: contain; }
 #close { float: right; min-width: 44px; font-size: 1.3rem; margin-left: .4rem; }
 #content h2 { margin: 0 0 .25rem; font: 1.35rem Georgia, serif; }
 article + article { border-top: 1px solid var(--line); margin-top: .75rem; padding-top: .75rem; }
@@ -70,4 +71,12 @@ footer { border-top: 1px solid var(--line); padding-bottom: max(.65rem, env(safe
   aside, #detail, #results { left: auto; right: 1rem; width: min(26rem, 40vw); }
   #detail { top: .55rem; bottom: auto; }
   h1 span { display: inline; margin-left: .6rem; }
+}
+@media (orientation: landscape) and (max-height: 550px) {
+  .masthead { display: none; }
+  header { padding-block: .3rem; }
+  #days { padding-block: .2rem; }
+  aside, #detail, #results { left: auto; right: .4rem; width: 46%; max-height: calc(100% - 1rem); }
+  #results { top: 115px; bottom: 65px; max-height: none; }
+  #detail { top: .4rem; bottom: .4rem; }
 }

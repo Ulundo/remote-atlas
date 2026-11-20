@@ -95,6 +95,19 @@ async function start() {
   let centerLongitude = 110;
   const mapPoint = ([lat, lon]) => [lat, longitude(lon, centerLongitude)];
   let previousFocus;
+  let selectedScene = '';
+  function sceneOf(item) {
+    return scenes.find(scene => scene.id === (item.scene_id || item.id));
+  }
+  function focusItem(item) {
+    const route = item.scene_id ? item : routesByScene.get(item.id);
+    const points = route ? geometry(route).flat() : [];
+    const place = places[item.place_id || item.to_place_id];
+    const region = places[place?.region_place_id];
+    if (place?.coords) points.push(mapPoint(place.coords));
+    else if (region?.coords) points.push(mapPoint(region.coords));
+    if (map && points.length) fitBounds(L.latLngBounds(points), 11);
+  }
 
   el('limit').textContent = `До начала Day ${lastDay + 1}`;
   function toggle(panel, control, open) {
@@ -104,27 +117,49 @@ async function start() {
   function closeDetails(restore = false) {
     if (el('detail').hidden) return;
     el('detail').hidden = true;
+    selectedScene = '';
+    render();
     if (restore && previousFocus?.isConnected) previousFocus.focus();
   }
   function details(items) {
     previousFocus = document.activeElement;
+    if (items.length === 1) {
+      const scene = sceneOf(items[0]);
+      selectedScene = scene.id;
+      state.day = scene.day;
+      state.query = '';
+      el('search').value = '';
+      renderDays();
+      render();
+      focusItem(items[0]);
+    } else {
+      selectedScene = '';
+      render();
+    }
     toggle('results', 'results-button', false);
     toggle('character-panel', 'characters', false);
     el('content').replaceChildren(...items.map(card));
     el('detail').hidden = false;
+    if (items.length === 1) focusItem(items[0]);
     el('detail').scrollTop = 0;
     el('close').focus({ preventScroll: true });
   }
   function card(item) {
     const article = node('article');
     const heading = node('h2', title(item));
-    const place = places[item.place_id];
+    const place = places[item.place_id || item.to_place_id];
     const route = item.scene_id ? item : routesByScene.get(item.id);
     const flags = item.scene_id
       ? [item.transport, routeKind[item.route_type], precision[item.confidence]]
       : [place.local, placeKind[place.kind], precision[item.confidence]];
     article.append(heading, node('div', [dayName(item.day), ...flags].filter(Boolean).join(' · '), 'meta'),
       node('p', item.event), node('p', participants(item), 'meta'));
+    if (place?.region_place_id) {
+      article.append(node('p', `Район события — ${places[place.region_place_id].name}. Положение внутри района неизвестно.`, 'meta'));
+    }
+    if (selectedScene !== sceneOf(item).id) {
+      article.append(button('Выбрать событие', () => details([item])));
+    }
     if (item.scene_id && item.via_place_ids.length) {
       article.append(node('p', `Через ${item.via_place_ids.map(id => places[id].name).join(' → ')}`));
     }
@@ -143,7 +178,16 @@ async function start() {
     if (route && !item.scene_id) {
       article.append(button(title(route), () => details([route])));
     }
-    if (!item.scene_id) {
+    if (!item.scene_id && !state.character && item.character_ids.length > 1) {
+      article.append(node('p', 'Продолжить по персонажу', 'meta'));
+      for (const id of item.character_ids) {
+        article.append(button(people[id].name, () => {
+          selectCharacter(id);
+          details([item]);
+        }));
+      }
+    }
+    if (!item.scene_id && (state.character || item.character_ids.length === 1)) {
       const followsCharacter = other => other.character_ids.some(id =>
         state.character ? id === state.character : item.character_ids.includes(id));
       const index = scenes.indexOf(item);
@@ -192,13 +236,22 @@ async function start() {
   function fitBounds(bounds, maxZoom) {
     if (!bounds.isValid()) return;
     map.stop();
-    map.fitBounds(bounds, { padding: [42, 42], maxZoom, animate: false });
+    const desktop = matchMedia('(min-width: 760px)').matches;
+    const open = !el('detail').hidden;
+    map.fitBounds(bounds, {
+      paddingTopLeft: [30, 30],
+      paddingBottomRight: open
+        ? desktop ? [Math.min(innerWidth * .4, 440), 35] : [30, map.getSize().y * .46]
+        : [30, 35],
+      maxZoom, animate: false,
+    });
   }
   function drawArrows() {
     if (!map) return;
     arrows.clearLayers();
     const zoom = map.getZoom();
-    for (const { shape, air, arrivalHeading } of drawnRoutes) {
+    for (const { shape, air, arrivalHeading, dimmed } of drawnRoutes) {
+      if (dimmed) continue;
       for (const path of shape) {
         const points = path.map(point => map.project(point, zoom));
         const lengths = points.slice(1).map((point, index) => point.distanceTo(points[index]));
@@ -257,10 +310,11 @@ async function start() {
     for (const route of selectedRoutes) {
       const shape = geometry(route);
       if (!shape.length) continue;
-      drawnRoutes.push({ shape, air: route.route_type === 'air', arrivalHeading: route.arrival_heading });
+      const dimmed = Boolean(selectedScene && selectedScene !== route.scene_id);
+      drawnRoutes.push({ shape, air: route.route_type === 'air', arrivalHeading: route.arrival_heading, dimmed });
       const dashed = ['schematic', 'direction'].includes(route.route_type);
       const line = L.polyline(shape, {
-        weight: 5, opacity: .86, color: route.route_type === 'air' ? '#72c2ce' : '#f0cb86',
+        weight: selectedScene === route.scene_id ? 8 : 5, opacity: dimmed ? .16 : .95, color: route.route_type === 'air' ? '#72c2ce' : '#f0cb86',
         dashArray: dashed ? '6 8' : undefined, bubblingMouseEvents: false,
       }).addTo(layers);
       line.on('click', () => details([route]));
@@ -279,14 +333,24 @@ async function start() {
     }
     for (const [id, items] of atPlace) {
       const place = places[id];
-      if (!place.coords) continue;
+      if (!place.coords) {
+        const region = places[place.region_place_id];
+        if (region?.coords && items.some(item => (item.scene_id || item.id) === selectedScene)) {
+          L.circleMarker(mapPoint(region.coords), { radius: 18, color: '#f0cb86', dashArray: '5 6', fillOpacity: .06 }).addTo(layers).bindTooltip(`Район события · ${region.name}`);
+        }
+        continue;
+      }
       const icon = L.divIcon({
-        html: items.length > 1 ? String(items.length) : '',
+        html: '',
         className: place.kind === 'real' ? 'pin' : 'pin approx', iconSize: [22, 22],
       });
       const marker = L.marker(mapPoint(place.coords), {
         title: place.name, alt: place.name, icon, bubblingMouseEvents: false,
       }).addTo(layers);
+      const activeRoute = routes.find(route => route.scene_id === selectedScene);
+      if (activeRoute && [activeRoute.from_place_id, activeRoute.to_place_id].includes(id)) {
+        marker.bindTooltip(id === activeRoute.from_place_id ? 'Начало' : 'Конец', { permanent: true, direction: 'top' });
+      }
       marker.on('click', () => details(items));
       marker.getElement().setAttribute('aria-label', place.name);
       marker.getElement().addEventListener('keydown', event => {
